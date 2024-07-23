@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "669491542ec417efbac431de"
+  },
+  "title": "Nỗi Buồn Chiến Tranh",
+  "img": "nổi buồn chiến tranh.jfif",
+  "author": "Bảo Ninh",
+  "price": 200000,
+  "quantity": 20,
+  "category": {
+    "$oid": "669494f02ec417efbac431e1"
+  }
+}]
