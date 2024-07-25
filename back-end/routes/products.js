@@ -1,71 +1,59 @@
-var express = require("express");
+var express = require('express');
 var router = express.Router();
-const path = require('path');
+const productController = require('../controller/ProductController');
 
-var productModel = require("../model/product");
-
-var multer = require("multer");
-
-// Cấu hình multer
-var storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, "../public/images"); // thư mục lưu trữ file upload
-  },
-  filename: function (req, file, cb) {
-    cb(null, Date.now() + path.extname(file.originalname)); // đặt tên file upload
-  },
-});
-
-var upload = multer({ storage: storage });
-
-router.get("/", async function (req, res, next) {
-  const datas = await productModel.find();
-
-  data = datas.map((p) => {
-    return {
-      id: p._id,
-      title: p.title,
-      img: p.img,
-      author: p.author,
-      quantity: p.quantity,
-      price: p.price,
-      category: p.category,
-    };
-  });
-
-  res.json(data);
-});
-
-router.post("/add", upload.single("img"), async function (req, res, next) {
+// Routers for API
+// Get products listing
+// http://localhost:3000/products
+// GET /products - Lấy danh sách sản phẩm
+router.get('/', async function(req, res, next) {
+  console.log('GET /products endpoint hit');
   try {
-    let { _id, title, author, quantity, price, category } = req.body;
-
-    if (!title || !author || !quantity || !price || !category) {
-      return res.status(400).json({ status: 400, message: 'Vui lòng điền đầy đủ thông tin sản phẩm' });
-    }
-
-    let img = req.file ? req.file.filename : "";
-
-    console.log('Uploaded file:', req.file); // In thông tin file upload
-    console.log('File path:', path.join(__dirname, '../public/images', img)); // In đường dẫn file lưu trữ
-
-    const data = await productModel.create({
-      _id,
-      title,
-      img,
-      author,
-      quantity,
-      price,
-      category,
-    });
-
-    const saveProduct = await data.save();
-
-    res.json({ status: 200, message: "thêm thành công", data:saveProduct });
+      // Gọi controller để lấy tất cả sản phẩm
+      const result = await productController.getAll();
+      
+      // Kiểm tra xem result có phải là một mảng hay không
+      if (Array.isArray(result) && result.length > 0) {
+          // Định dạng dữ liệu theo yêu cầu
+          const formattedData = result.map(e => ({
+              id: e._id,
+              title: e.title,
+              /* author */
+              img: e.img,
+              price: e.price,
+              quantity: e.quantity,
+              description: e.description,
+              createdAt: e.createdAt,
+              updatedAt: e.updatedAt,
+              category: e.category
+          }));
+          
+          console.log('Products fetched successfully:', formattedData);
+          res.status(200).json( formattedData);
+      } else {
+          console.log('No products found');
+          res.status(404).json({ error: 'No products found' });
+      }
   } catch (error) {
-    console.error('Error:', error); // In chi tiết lỗi ra console
-    res.status(500).json({ status: 500, message: 'Thêm Thất Bại !!!!', error: error.message });
+      console.error('Error fetching products:', error.message);
+      res.status(500).json({ error: error.message });
   }
 });
+
+// GET /products/:id - Lấy chi tiết sản phẩm theo ID
+router.get('/:id', async (req, res) => {
+    const { id } = req.params;
+    try {
+      const product = await productController.findById(id);
+      if (product) {
+        res.status(200).json( product );
+      } else {
+        res.status(404).json({ error: `No product found with id: ${id}` });
+      }
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  });
+
 
 module.exports = router;
