@@ -14,22 +14,9 @@ router.get('/', async function(req, res, next) {
       
       // Kiểm tra xem result có phải là một mảng hay không
       if (Array.isArray(result) && result.length > 0) {
-          // Định dạng dữ liệu theo yêu cầu
-          const formattedData = result.map(e => ({
-              id: e._id,
-              title: e.title,
-              /* author */
-              img: e.img,
-              price: e.price,
-              quantity: e.quantity,
-              description: e.description,
-              createdAt: e.createdAt,
-              updatedAt: e.updatedAt,
-              category: e.category
-          }));
           
-          console.log('Products fetched successfully:', formattedData);
-          res.status(200).json( formattedData);
+          console.log('Products fetched successfully:', result);
+          res.status(200).json( result);
       } else {
           console.log('No products found');
           res.status(404).json({ error: 'No products found' });
