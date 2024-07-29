@@ -11,14 +11,7 @@ router.get('/', async function(req, res, next) {
         const result = await categoryController.getAll();
         if (result) {
             console.log('Products fetched successfully:', result);
-
-            const formattedData = result.map(e => ({
-              id: e._id,
-              name: e.name,
-              
-          }));
-          
-            res.status(200).json( formattedData );
+            res.status(200).json( result );
         } else {
             console.log('No products found');
             res.status(404).json({ error: 'No products found' });

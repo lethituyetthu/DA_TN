@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "66a70de5d12f722636bdf9db"
+  },
+  "title": "Nỗi Buồn Chiến Tranh",
+  "img": "https://upload.wikimedia.org/wikipedia/vi/1/11/Noi_buon_chien_tranh.jpg",
+  "author": "Bảo Ninh",
+  "price": 200000,
+  "quantity": 20,
+  "description": "là một tiểu thuyết sâu sắc về nỗi đau và tổn thương mà chiến tranh gây ra. Câu chuyện xoay quanh Kiên, một cựu chiến binh Việt Nam, người sống sót sau cuộc chiến tranh chống Mỹ. Cuốn sách sử dụng phong cách dòng ý thức để kể lại những ký ức và trải nghiệm rời rạc của Kiên, từ những trận chiến khốc liệt đến những mất mát cá nhân. Qua đó, tác phẩm truyền tải một thông điệp mạnh mẽ về sự tàn phá của chiến tranh và những vết thương tâm lý mà nó để lại cho những người tham gia",
+  "sold": 1,
+  "view": 2,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29",
+  "categoryId": {
+    "$oid": "669494f02ec417efbac431e1"
+  }
+}]

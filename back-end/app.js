@@ -13,6 +13,7 @@ var productsRouter = require('./routes/products');
 var categoriesRouter = require('./routes/category');
 
 var app = express();
+
 // khai báo cor
 const cors = require('cors');
 
@@ -29,6 +30,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 // Middleware để cấu hình CORS
 app.use(cors({
   origin: 'http://localhost:3000',
@@ -40,7 +42,7 @@ app.use(cors({
 
 
 //kết nối db
-const connection = mongoose.connect('mongodb+srv://hieunn30:hieu123456@cluster0.wypatuk.mongodb.net/bookverse?retryWrites=true&w=majority',{
+const connection = mongoose.connect('mongodb://localhost:27017/DA_TN',{
   useNewUrlParser: true,
   useUnifiedTopology:true
 })

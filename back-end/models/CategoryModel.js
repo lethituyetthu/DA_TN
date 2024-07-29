@@ -7,6 +7,5 @@ const CategorySchema = new Schema({
     name: { type: String, required: true, unique:true,trim:true, minlength:3, maxlenghth:50, default:"no name" },
     
 
-
 });
 module.exports = mongoose.model('category', CategorySchema);

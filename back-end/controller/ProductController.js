@@ -5,18 +5,21 @@ exports.getAll = async () => {
     return products.map((p) => ({
       id: p._id,
       title: p.title,
-      img: p.img,
+      price: p.price ,
+      description: p.description,
+      img: p.img ,
       author: p.author,
-      quantity: p.quantity,
-      price: p.price,
-      categoryId: p.categoryId,
+      quantity: p.quantity ,
+      sold: p.sold ,
+      view: p.view,
       createdAt: p.createdAt,
-      updatedAt: p.updatedAt
+      updatedAt: p.updatedAt,
+      categoryId: p.categoryId,
     }));
   } catch (error) {
     throw error;
   }
-  à;
+  ;
 };
 
 exports.findById = async (id) => {
