@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6694afdf2ec417efbac431f9"
+  },
+  "name": "lê thị tuyết thu",
+  "role": "quản lý",
+  "password": "abc123"
+},
+{
+  "_id": {
+    "$oid": "6694b0702ec417efbac431fa"
+  },
+  "name": "bích ngọc",
+  "role": "nhân viên",
+  "password": "abc123"
+}]
