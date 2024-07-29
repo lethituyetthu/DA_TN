@@ -1,0 +1,40 @@
+
+/* CSS cho bảng sản phẩm */
+.table th, .table td {
+    font-size: 0.875rem; /* Thay đổi kích thước chữ của các ô trong bảng */
+}
+
+.table thead th {
+    font-size: 1rem; /* Kích thước chữ của tiêu đề cột */
+ /* Màu nền cho tiêu đề cột */
+    text-align: center; /* Căn giữa tiêu đề cột */
+}
+
+.table tfoot th {
+    font-size: 0.875rem; /* Kích thước chữ của chân bảng */
+}
+
+.table img {
+    max-width: 100px; /* Đặt kích thước tối đa cho ảnh */
+    max-height: 100px;
+    object-fit: cover; /* Giữ tỷ lệ ảnh */
+}
+
+.table td, .table th {
+    text-align: center; /* Căn giữa nội dung ô */
+    vertical-align: middle; /* Căn giữa theo chiều dọc */
+}
+
+.card-header {
+    font-size: 1.25rem; /* Kích thước chữ của tiêu đề thẻ */
+    background-color: #007bff; /* Màu nền của tiêu đề thẻ */
+    color: #ffffff; /* Màu chữ của tiêu đề thẻ */
+}
+
+.btn-primary {
+    font-size: 0.875rem; /* Kích thước chữ của nút */
+}
+
+.form-control {
+    font-size: 0.875rem; /* Kích thước chữ của ô nhập liệu */
+}
