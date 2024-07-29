@@ -1,3 +1,6 @@
 [submodule "bookstore"]
 	path = bookstore
 	url = https://github.com/lethituyetthu/du_an_tot_nghiep.git
+[submodule "front-end"]
+	path = front-end
+	url = https://github.com/lethituyetthu/DA_TN-FRONT_END.git
