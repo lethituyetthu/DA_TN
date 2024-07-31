@@ -16,4 +16,11 @@ const ProductSchema = new Schema({
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now }
 });
+
+
+// Cập nhật updatedAt mỗi khi tài liệu được lưu
+ProductSchema.pre('save', function(next) {
+    this.updatedAt = Date.now();
+    next();
+});
 module.exports = mongoose.model('product', ProductSchema);

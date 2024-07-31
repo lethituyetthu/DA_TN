@@ -7,6 +7,8 @@ const productModel = require("../models/ProductModel")
 // Routers for API
 // Get products listing
 // http://localhost:3000/products
+
+// show sp
 router.get("/", async function (req, res, next) {
   console.log("GET /products endpoint hit");
   try {
@@ -39,6 +41,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+// thêm sp
 router.post("/", async (req, res) => {
   try {
     const newProduct = req.body; // Giả sử dữ liệu sản phẩm được gửi trong body của yêu cầu
@@ -52,7 +55,25 @@ router.post("/", async (req, res) => {
   }
 });
 
+// sửa sp
 
+router.put("/update/:id", async(req,res) =>{
+  const {id} = req.params;
+  const updatePro = req.body;
+  try {
+    const result = await productModel.findByIdAndUpdate(id, updatePro, {new: true})
+    if (result){
+      res.status(200).json({message: "sp đã được cập nhật"})
+    }else{
+      res.status(404).json({ error: error.message })
+    }
+  }catch (error) {
+    console.error("Error adding product:", error.message);
+    res.status(500).json({ error: error.message });
+  }
+})
+
+// xóa sp
 router.delete("/delete/:id", async(req,res)=>{
   const {id} = req.params;
   try {

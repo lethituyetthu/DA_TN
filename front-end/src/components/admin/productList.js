@@ -4,6 +4,16 @@ import { Link } from "react-router-dom";
 
 
 const ProductList = ({ products, getCateNameById, deletePro }) => {
+  // Định dạng ngày và giờ
+  const formatDateTime = (date) => {
+    const options = { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+    return new Date(date).toLocaleDateString('vi-VN', options);
+  };
+
+  // Định dạng giá tiền
+  const formatPrice = (price) => {
+    return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(price);
+  };
 
   
   const handleDelete = async (id) => {
@@ -21,9 +31,9 @@ const ProductList = ({ products, getCateNameById, deletePro }) => {
           <td>{product.id}</td>
           <td>{product.title}</td>
           <td>{product.author}</td>
-          <td>{product.price}</td>
-          <td>{product.createdAt}</td>
-          <td>{product.updatedAt}</td>
+          <td>{formatPrice(product.price)}</td>
+          <td>{formatDateTime(product.createdAt)} <br></br><b> {formatDateTime(product.updatedAt)}</b></td>
+         
           <td>{getCateNameById(product.categoryId)}</td>
           <td>{product.quantity}</td>
           <td >
@@ -41,7 +51,7 @@ const ProductList = ({ products, getCateNameById, deletePro }) => {
                 </button>
               </li>
               <li>
-              <Link className="dropdown-item rounded-bottom-1 bg-warning " to="/">
+              <Link className="dropdown-item rounded-bottom-1 bg-warning " to={`/admin/products/update/${product.id}`}>
                   Sửa SP
                 </Link>
               </li>

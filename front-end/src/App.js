@@ -8,6 +8,7 @@ import Home from "./pages/admin/home";
 import Products from "./pages/admin/product";
 import Categories from "./pages/admin/category";
 import ProductAdd from "./pages/admin/productAdd";
+import ProductUpdate from "./pages/admin/productUpdate";
 import Home_shop from "./pages/user/home";
 
 
@@ -24,6 +25,7 @@ const AdminRoutes = () => (
           <Route path="/products" element={<Products />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/products/add" element={<ProductAdd />} />
+          <Route path="/products/update/:id" element={<ProductUpdate />} />
         </Routes>
       </div>
     </div>

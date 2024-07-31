@@ -58,8 +58,8 @@ const Products = () => {
                     <th style={{width:"200px"}}>Tiêu Đề</th>
                     <th style={{width:"100px"}}>Tác Giả</th>
                     <th style={{width:"100px"}}>Giá Tiền</th>
-                    <th>ngày nhập</th>  
-                    <th>ngày cập nhật</th>  
+                    <th>thời gian</th>  
+                    
                     <th style={{width:"100px"}}>Thể Loại</th>
                     <th style={{width:"100px"}}>Số Lượng</th>
                     <th>Thao Tác</th>

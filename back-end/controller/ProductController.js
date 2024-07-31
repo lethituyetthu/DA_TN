@@ -23,8 +23,21 @@ exports.getAll = async () => {
 };
 
 exports.findById = async (id) => {
-  const product = await productService.findById(id);
-  return product;
+  const p = await productService.findById(id);
+  return {
+    id: p._id,
+    title: p.title,
+    price: p.price,
+    description: p.description,
+    img: p.img,
+    author: p.author,
+    quantity: p.quantity,
+    sold: p.sold,
+    view: p.view,
+    createdAt: p.createdAt,
+    updatedAt: p.updatedAt,
+    categoryId: p.categoryId,
+  };
 };
 
 exports.add = async (productData) =>{

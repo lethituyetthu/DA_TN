@@ -1,12 +1,15 @@
 // eslint-disable-next-line
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import useFetchCate from "../../hooks/getCategory";
 import useFetchProducts from "../../hooks/getProduct";
+import { useNavigate, useParams } from "react-router-dom";
 
-const ProductAdd = () => {
+const ProductUpdate = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
   const { cate } = useFetchCate();
-  const { addProduct } = useFetchProducts();
+  const { updatePro, fetchProductById } = useFetchProducts();
 
   const [formData, setForm] = useState({
     title: "",
@@ -20,6 +23,19 @@ const ProductAdd = () => {
     description: "",
   });
 
+  // load sp chi tiết
+  useEffect(() => {
+    const loadProduct = async () => {
+      try {
+        const product = await fetchProductById(id);
+        // add thông tin so vào form
+        setForm(product);
+      } catch (error) {
+        console.error("Lỗi khi tải sản phẩm:", error);
+      }
+    };
+    loadProduct();
+  }, [id, fetchProductById]);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prevData) => ({
@@ -31,29 +47,12 @@ const ProductAdd = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     /* console.log(formData) */
-
-    console.log(formData);
-    addProduct(formData);
-
-    /* try {
-      const response = await fetch("http://localhost:3200/products", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json", // Chỉ định kiểu dữ liệu là JSON
-        },
-        body: JSON.stringify(formData), // Chuyển đổi dữ liệu thành JSON
-      });
-
-      if (!response.ok) {
-        const errorData = await response.text(); // Hoặc response.json() nếu máy chủ trả về JSON
-        throw new Error(`Lỗi khi thêm sản phẩm: ${errorData}`);
-      }
-
-      const result = await response.json();
-      console.log("Thêm sản phẩm thành công:", result);
+    try {
+      await updatePro(id, formData); 
+      navigate("/admin/products");
     } catch (error) {
-      console.error("Lỗi khi thêm sản phẩm:", error.message);
-    } */
+      console.error("Lỗi khi cập nhật sản phẩm:", error.message);
+    }
   };
   return (
     <>
@@ -70,7 +69,7 @@ const ProductAdd = () => {
             textAlign: "left", // Căn lề trái
           }}
         >
-          Nhập Hàng Mới
+          cập nhật sp
         </div>
         <div className="d-flex align-items-center">
           {/* === TIÊU ĐỀ === */}
@@ -170,7 +169,7 @@ const ProductAdd = () => {
             placeholder="Enter Thông Tin Chi Tiết"
           />
         </div>
-        
+
         {/* === THỂ LOẠI === */}
         <div className="mb-3 d-flex">
           <label htmlFor="category" className="form-label fs-4 col-sm-2">
@@ -193,9 +192,9 @@ const ProductAdd = () => {
         {/* === BUTTON === */}
         <div className="d-flex">
           <button type="submit" className="btn btn-primary p-2 w-25 m-3 ">
-            Nhập Hàng
+            Cập Nhật
           </button>
-          <button type="button" className="btn btn-danger p-2 w-25  m-3 ">
+          <button type="button" className="btn btn-danger p-2 w-25  m-3 " onClick={() => navigate("/admin/products")}>
             Hủy
           </button>
         </div>
@@ -204,4 +203,4 @@ const ProductAdd = () => {
   );
 };
 
-export default ProductAdd;
+export default ProductUpdate;
