@@ -10,18 +10,24 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
 
-  const {products} = useFetchProducts();
+  const {products, deletePro} = useFetchProducts();
   const {getCateNameById} = useFetchCate();
   const [search, setSearch] = useState("");
 
+ 
   const timkiem = (event) =>{
     setSearch(event.target.value);
   };
   /* console.log(products) */
 
+
+ 
+
   const fillterPro = Array.isArray(products) ? products.filter((product) =>
     product.title.toLowerCase().includes(search.toLowerCase())
   ):[];
+
+
 
   return (
     <>
@@ -69,7 +75,7 @@ const Products = () => {
                   </tr>
                 </tfoot>
                 {/* componenent show sản phẩm - admin */}
-                <ProductList products={search ? fillterPro : products} getCateNameById = {getCateNameById}/>
+                <ProductList products={search ? fillterPro : products} getCateNameById = {getCateNameById} deletePro = {deletePro}/>
               </table>
             </div>
           </div>

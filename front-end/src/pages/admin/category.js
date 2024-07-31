@@ -22,7 +22,7 @@ const Categories = () => {
     <>
       <main>
         <div className="container-fluid px-4 mt-4">
-          <p htmlFor="newCategory" className="form-label fs-5 text-danger">
+          <p htmlFor="newCategory" className="form-label fs-5 text-danger fw-bold">
           Thể Loại Mới
           </p>
           <form /* onSubmit={handleSubmitNewCategory} */ className="mb-4 d-flex">

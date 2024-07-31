@@ -2,7 +2,18 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 
-const ProductList = ({ products, getCateNameById }) => {
+
+const ProductList = ({ products, getCateNameById, deletePro }) => {
+
+  
+  const handleDelete = async (id) => {
+    try {
+      await deletePro(id);
+    } catch (error) {
+      console.error("Lỗi khi xóa sản phẩm:", error.message);
+    }
+  };
+
   return (
     <tbody>
       {products.map((product, index) => (
@@ -25,9 +36,9 @@ const ProductList = ({ products, getCateNameById }) => {
             </button>
             <ul className="dropdown-menu p-0 ro" style={{backgroundColor: "#d9d9d9"}}>
               <li>
-                <Link className="dropdown-item bg-danger rounded-top-1 text-light" to="/">
+                <button onClick={() => handleDelete(product.id)} className="dropdown-item bg-danger rounded-top-1 text-light" to="/">
                   Xóa SP
-                </Link>
+                </button>
               </li>
               <li>
               <Link className="dropdown-item rounded-bottom-1 bg-warning " to="/">

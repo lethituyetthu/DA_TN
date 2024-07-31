@@ -26,3 +26,13 @@ exports.findById = async (id) => {
   const product = await productService.findById(id);
   return product;
 };
+
+exports.add = async (productData) =>{
+  try {
+    const newProduct = await productService.add(productData);
+    return newProduct;
+  } catch (error) {
+    console.error("controller", error.message);
+    throw error;
+  }
+}

@@ -1,18 +1,92 @@
 [{
   "_id": {
-    "$oid": "66a70de5d12f722636bdf9db"
+    "$oid": "66a9b381d63c5109c1624d9e"
   },
-  "title": "Nỗi Buồn Chiến Tranh",
-  "img": "https://upload.wikimedia.org/wikipedia/vi/1/11/Noi_buon_chien_tranh.jpg",
-  "author": "Bảo Ninh",
-  "price": 200000,
-  "quantity": 20,
-  "description": "là một tiểu thuyết sâu sắc về nỗi đau và tổn thương mà chiến tranh gây ra. Câu chuyện xoay quanh Kiên, một cựu chiến binh Việt Nam, người sống sót sau cuộc chiến tranh chống Mỹ. Cuốn sách sử dụng phong cách dòng ý thức để kể lại những ký ức và trải nghiệm rời rạc của Kiên, từ những trận chiến khốc liệt đến những mất mát cá nhân. Qua đó, tác phẩm truyền tải một thông điệp mạnh mẽ về sự tàn phá của chiến tranh và những vết thương tâm lý mà nó để lại cho những người tham gia",
-  "sold": 1,
-  "view": 2,
-  "createdAt": "2024-07-29",
-  "updatedAt": "2024-07-29",
+  "title": " Truyện Ngụ Ngôn E Dốp",
+  "price": 58,
+  "description": "Ngụ ngôn Ê Dốp là tuyển tập các truyện ngụ ngôn cổ điển nhất thế giới, là kết tinh tinh hoa văn học dân gian và trí tuệ người dân lao động. Những mẫu truyện ngắn, hình thức đơn giản, hàm chứa ý nghĩa sâu xa. Nó không chỉ là tài liệu gợi mở giúp trẻ nhận biết được đúng, sai mà còn là một cuốn sách giáo dục cuộc sống. Sức hút của những truyện ngụ ngôn chính là tính thú vị trong bản thân mỗi câu chuyện, đặc điểm miêu tả cốt truyện và ngụ ý sâu xa trong mỗi câu chuyện. Các bạn nhỏ sẽ tìm dược \"tấm gương sáng\" trong mỗi câu chuyện và sẽ hướng đến cái thiện, lớn lên trở thành người có ích cho xã hội.",
+  "img": "https://book365.vn/upload/uf/698/883868zq1vtv4qqm7plgby2g8k0i2mkv.jpeg",
+  "author": "Aesop",
   "categoryId": {
-    "$oid": "669494f02ec417efbac431e1"
-  }
+    "$oid": "6694958e2ec417efbac431ed"
+  },
+  "quantity": 49,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-07-31T03:46:09.932Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-31T03:46:09.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66a9b3d6d63c5109c1624da9"
+  },
+  "title": " Hoàng tử bé",
+  "price": 70000,
+  "description": "Hoàng tử bé được viết ở New York trong những ngày tác giả sống lưu vong và được xuất bản lần đầu tiên tại New York vào năm 1943, rồi đến năm 1946 mới được xuất bản tại Pháp. Không nghi ngờ gì, đây là tác phẩm nổi tiếng nhất, được đọc nhiều nhất và cũng được yêu mến nhất của Saint-Exupéry. Cuốn sách được bình chọn là tác phẩm hay nhất thế kỉ 20 ở Pháp, đồng thời cũng là cuốn sách Pháp được dịch và được đọc nhiều nhất trên thế giới.",
+  "img": "https://book365.vn/upload/uf/9ca/523usmdguprqty46r10pssmlqcfj236g.jpeg",
+  "author": "Antoine De Saint-Exupéry",
+  "categoryId": {
+    "$oid": "6694958e2ec417efbac431ed"
+  },
+  "quantity": 50,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-07-31T03:47:34.155Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-31T03:47:34.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66a9b442d63c5109c1624db4"
+  },
+  "title": "  Đất rừng phương Nam",
+  "price": 80000,
+  "description": "“Được viết bằng trái tim nhạy cảm, tài quan sát tinh tế, hiểu biết sâu sắc và vốn sống dồi dào, Đất rừng phương Nam là một trong những tác phẩm viết về Nam bộ xuất sắc nhất, làm bật lên trọn vẹn vẻ đẹp con người và thiên nhiên nơi đây. Mỗi lần đọc là mỗi lần tình yêu xứ sở được khơi gợi đến nao lòng.” (Nhà văn Anh Đức)",
+  "img": "https://book365.vn/upload/uf/e8a/aq3cqmyrcbpwfll5w1ro8ipnivxk6bqx.jpg",
+  "author": "Đoàn Giỏi",
+  "categoryId": {
+    "$oid": "6694958e2ec417efbac431ed"
+  },
+  "quantity": 90,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-07-31T03:49:22.086Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-31T03:49:22.086Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66a9b530d63c5109c1624dc1"
+  },
+  "title": "Cẩm nang Chuyển đổi số",
+  "price": 56000,
+  "description": "Cẩm nang Chuyển đổi số được xây dựng trên cơ sở thực tiễn của những người đã trăn trở, đã trực tiếp tham gia hoạch định cơ chế, chính sách, chiến lược chuyển đổi số trong hai năm vừa qua, với sự chung tay, giúp sức, kế thừa tri thức của nhiều chuyên gia, nhà quản lý, nhà khoa học và doanh nhân Việt Nam. Một số nội dung trong cuốn Cẩm nang này đã được thực tế kiểm nghiệm, còn một số thì chưa; tuy nhiên những nội dung cô đọng trong sách chắc chắn sẽ đáp ứng được nhu cầu của độc giả tìm hiểu, nắm bắt cơ bản nhất về chuyển đổi số.",
+  "img": "https://book365.vn/upload/uf/54e/d4musmo3trddy5y4fh3d5nnnuar0mwjk.jpeg",
+  "author": "Bộ Thông tin và Truyền thông",
+  "categoryId": {
+    "$oid": "669495472ec417efbac431e7"
+  },
+  "quantity": 58,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-07-31T03:53:20.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-31T03:53:20.769Z"
+  },
+  "__v": 0
 }]
