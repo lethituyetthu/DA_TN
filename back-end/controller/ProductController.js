@@ -23,29 +23,29 @@ exports.getAll = async () => {
 };
 
 exports.findById = async (id) => {
-  const p = await productService.findById(id);
-  return {
-    id: p._id,
-    title: p.title,
-    price: p.price,
-    description: p.description,
-    img: p.img,
-    author: p.author,
-    quantity: p.quantity,
-    sold: p.sold,
-    view: p.view,
-    createdAt: p.createdAt,
-    updatedAt: p.updatedAt,
-    categoryId: p.categoryId,
-  };
+  const product = await productService.findById(id);
+  return product;
 };
 
-exports.add = async (productData) =>{
+// Thêm sản phẩm mới
+exports.create = async (productData) => {
   try {
-    const newProduct = await productService.add(productData);
+    const newProduct = await productService.create(productData);
     return newProduct;
   } catch (error) {
-    console.error("controller", error.message);
-    throw error;
+    throw new Error(`Error creating product: ${error.message}`);
   }
-}
+};
+exports.delete = async (id) => {
+  await productService.delete(id);
+};
+
+// Cập nhật sản phẩm
+exports.update = async (id, productData) => {
+  try {
+    const product = await productService.update(id, productData);
+    return product;
+  } catch (error) {
+    throw new Error(`Error updating product: ${error.message}`);
+  }
+};
