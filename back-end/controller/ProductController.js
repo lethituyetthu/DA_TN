@@ -26,3 +26,26 @@ exports.findById = async (id) => {
   const product = await productService.findById(id);
   return product;
 };
+
+// Thêm sản phẩm mới
+exports.create = async (productData) => {
+  try {
+    const newProduct = await productService.create(productData);
+    return newProduct;
+  } catch (error) {
+    throw new Error(`Error creating product: ${error.message}`);
+  }
+};
+exports.delete = async (id) => {
+  await productService.delete(id);
+};
+
+// Cập nhật sản phẩm
+exports.update = async (id, productData) => {
+  try {
+    const product = await productService.update(id, productData);
+    return product;
+  } catch (error) {
+    throw new Error(`Error updating product: ${error.message}`);
+  }
+};

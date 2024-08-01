@@ -3,13 +3,13 @@ const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 
 const ProductSchema = new Schema({
-    id:{type:ObjectId},
+    id: { type: ObjectId },
     title: { type: String, required: true },
     price: { type: Number, required: true },
     description: { type: String, required: true },
     img: { type: String, required: true },
     author: { type: String, required: true },
-    categoryId: { type: ObjectId, ref:"category" },
+    categoryId: { type: ObjectId, ref: "category", required: true },
     quantity: { type: Number, required: true },
     sold: { type: Number, required: true },
     view: { type: Number, required: true },

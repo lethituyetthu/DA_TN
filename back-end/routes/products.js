@@ -38,5 +38,95 @@ router.get('/:id', async (req, res) => {
     }
   });
 
+// Post new product
+// http://localhost:3200/products
+router.post('/', async function(req, res, next) {
+  console.log('Post /products endpoint hit');
+  try {
+    const { title, price, description, img, author, categoryId, quantity, sold, view } = req.body;
+  // Log the received data
+  console.log('Received data:', req.body);
+
+    // Tạo đối tượng sản phẩm từ dữ liệu nhận được
+    const productData = {
+      title,
+      price: Number(price),
+      description,
+      img,
+      author,
+      categoryId,
+      quantity: Number(quantity),
+      sold: Number(sold),
+      view: Number(view)
+    };
+    const product = await await productController.create( productData);
+    res.status(200).json(product);
+
+  } catch (error) {
+    console.error('Error creating product:', error.message);
+    res.status(500).json({ error: error.message });
+  }
+});
+// Delete products
+// http://localhost:3200/products/:id
+router.delete('/:id', async function(req, res, next) {
+  console.log('DELETE /products/:id endpoint hit');
+  try {
+    const { id } = req.params;
+
+    if (!id) {
+      return res.status(400).json({ error: 'Missing required parameter: id' });
+    }
+
+    const product = await productController.delete(id);
+
+    if (!product) {
+      return res.status(404).json({ error: 'Product not found' });
+    }
+
+    res.status(200).json({ message: 'Product deleted successfully' });
+  } catch (error) {
+    console.error('Error deleting product:', error.message);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Cập nhật sản phẩm
+// http://localhost:3200/products/:id
+router.put('/:id', async (req, res, next) => {
+  console.log('PUT /products/:id endpoint hit');
+  try {
+    const { id } = req.params;
+    const { title, price, description, img, author, categoryId, quantity, sold, view } = req.body;
+
+    // Log dữ liệu nhận được
+    console.log('Received data:', req.body);
+
+    // Tạo đối tượng sản phẩm từ dữ liệu nhận được
+    const productData = {
+      title,
+      price: Number(price),
+      description,
+      img,
+      author,
+      categoryId,
+      quantity: Number(quantity),
+      sold: Number(sold),
+      view: Number(view)
+    };
+
+    // Gọi phương thức update từ productController với id và đối tượng productData
+    const product = await productController.update(id, productData);
+    if (!product) {
+      return res.status(404).json({ error: 'Product not found' });
+    }
+    res.status(200).json(product);
+  } catch (error) {
+    console.error('Error updating product:', error.message);
+    res.status(500).json({ error: error.message });
+  }
+})
+
+
 
 module.exports = router;
