@@ -48,7 +48,7 @@ const ProductUpdate = () => {
     e.preventDefault();
     /* console.log(formData) */
     try {
-      await updatePro(id, formData); 
+      await updatePro(id, formData);
       navigate("/admin/products");
     } catch (error) {
       console.error("Lỗi khi cập nhật sản phẩm:", error.message);
@@ -62,18 +62,18 @@ const ProductUpdate = () => {
         className="container col-sm-8 mt-3 mb-3"
       >
         <div
-          className=" text-danger  pb-2 mb-4 mt-2 fs-4 fw-bold"
+          className=" text-dark  pb-2 mb-4 mt-2 fs-4 fw-bold"
           style={{
             backgroundColor: "#fff",
             borderBottom: "2px solid #000", // Đường dưới chữ
             textAlign: "left", // Căn lề trái
           }}
         >
-          cập nhật sp
+          Product Edit
         </div>
-        <div className="d-flex align-items-center">
-          {/* === TIÊU ĐỀ === */}
-          <div className="mb-3 d-flex col-6 align-items-center">
+        <div className="d-flex ">
+          <div className="mb-3 col-6">
+            {/* === TIÊU ĐỀ === */}
             <label
               htmlFor="title"
               className="form-label col-sm-3 fs-5 fw-normal"
@@ -82,16 +82,15 @@ const ProductUpdate = () => {
             </label>
             <input
               type="text"
-              className="form-control p-2"
+              className="form-control p-2 input-gray mb-2"
               id="title"
               placeholder="Enter Tiêu Đề"
               name="title"
               value={formData.title}
               onChange={handleChange}
+              style={{ backgroundColor: "#f0f0f0" }}
             />
-          </div>
-          {/* === TÁC GIẢ === */}
-          <div className="ps-3 mb-3 d-flex col-6 ">
+            {/* === TÁC GIẢ === */}
             <label
               htmlFor="author"
               className="form-label col-sm-3 fs-5 fw-normal"
@@ -100,33 +99,30 @@ const ProductUpdate = () => {
             </label>
             <input
               type="text"
-              className="form-control p-2"
+              className="form-control p-2 mb-2"
               id="author"
               placeholder="Enter Tác Giả"
               name="author"
               value={formData.author}
               onChange={handleChange}
+              style={{ backgroundColor: "#f0f0f0" }}
             />
-          </div>
-        </div>
-        <div className="d-flex align-items-center">
-          {/* === GIÁ TIỀN === */}
-          <div className="mb-3 d-flex col-6">
+            {/* === GIÁ TIỀN === */}
             <label htmlFor="price" className="form-label fs-5 col-sm-3">
               Giá Tiền
             </label>
             <input
               type="text"
-              className="form-control p-2"
+              className="form-control p-2 mb-2"
               id="price"
               placeholder="Enter giá tiền"
               name="price"
               value={formData.price}
               onChange={handleChange}
+              style={{ backgroundColor: "#f0f0f0" }}
             />
-          </div>
-          <div className="mb-3 d-flex col-6">
-            <label htmlFor="quantity" className="ps-3 form-label fs-5 col-sm-3">
+            {/* === SỐ LƯỢNG === */}
+            <label htmlFor="quantity" className=" form-label fs-5 col-sm-3">
               Số Lượng
             </label>
             <input
@@ -137,14 +133,21 @@ const ProductUpdate = () => {
               name="quantity"
               value={formData.quantity}
               onChange={handleChange}
+              style={{ backgroundColor: "#f0f0f0" }}
             />
           </div>
+          <div className="ms-5 ps-3 mb-3 d-flex col-6 ">
+              <img src={formData.img} alt="Example" style={{ width: '200px', height: 'auto' }}/>
+          </div>
         </div>
-        {/* === IMG === */}
-        <div className="mb-3 d-flex">
+        
+
+        <div className="mb-3 ">
+          {/* === IMG === */}
           <label htmlFor="img" className="form-label fs-4 col-sm-2 fs-5">
             Img
           </label>
+          <br></br>
           <input
             type="text"
             className="form-control p-2"
@@ -152,26 +155,28 @@ const ProductUpdate = () => {
             name="img"
             value={formData.img}
             onChange={handleChange}
+            placeholder="Enter hình ảnh"
+            style={{ backgroundColor: "#f0f0f0" }}
           />
         </div>
         {/* === thông tin chi tiết  === */}
-        <div className="mb-3 d-flex">
-          <label htmlFor="description" className="form-label fs-5 col-sm-2">
+        <div className="mb-3 ">
+          <label htmlFor="description" className="form-label fs-5">
             Thông Tin Chi Tiết
           </label>
-          <input
-            type="text"
-            className="form-control p-2"
+          <textarea
             id="description"
             name="description"
+            className="form-control p-2"
             value={formData.description}
             onChange={handleChange}
             placeholder="Enter Thông Tin Chi Tiết"
-          />
+            style={{ height: "150px", backgroundColor: "#f0f0f0" }}
+          ></textarea>
         </div>
 
         {/* === THỂ LOẠI === */}
-        <div className="mb-3 d-flex">
+        <div className="mb-3 ">
           <label htmlFor="category" className="form-label fs-4 col-sm-2">
             Thể Loại
           </label>
@@ -181,6 +186,7 @@ const ProductUpdate = () => {
             name="categoryId"
             value={formData.categoryId}
             onChange={handleChange}
+            style={{ backgroundColor: "#f0f0f0" }}
           >
             {cate.map((e) => (
               <option key={e.id} value={e.id}>
@@ -191,10 +197,14 @@ const ProductUpdate = () => {
         </div>
         {/* === BUTTON === */}
         <div className="d-flex">
-          <button type="submit" className="btn btn-primary p-2 w-25 m-3 ">
+          <button type="submit" className="btn btn-primary p-2 w-25 m-3 ms-0 ">
             Cập Nhật
           </button>
-          <button type="button" className="btn btn-danger p-2 w-25  m-3 " onClick={() => navigate("/admin/products")}>
+          <button
+            type="button"
+            className="btn btn-danger p-2 w-25  m-3 "
+            onClick={() => navigate("/admin/products")}
+          >
             Hủy
           </button>
         </div>

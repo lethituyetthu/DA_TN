@@ -1,6 +1,9 @@
 var express = require('express');
 var router = express.Router();
 const categoryController = require('../controller/CategoryController');
+const categoryModel = require('../models/CategoryModel');
+const productModel = require("../models/ProductModel")
+
 
 // Routers for API
 // Get products listing
@@ -81,27 +84,30 @@ router.put('/:id', async function(req, res, next) {
 
 // Delete category
 // http://localhost:3200/categories/:id
-router.delete('/:id', async function(req, res, next) {
-  console.log('DELETE /categories/:id endpoint hit');
+// xóa sp
+router.delete("/delete/:id", async(req,res)=>{
+  const {id} = req.params;
   try {
-    const { id } = req.params;
+    const pro = await productModel.find({categoryId : id});
 
-    if (!id) {
-      return res.status(400).json({ error: 'Missing required parameter: id' });
+    if(pro.length > 0){
+
+      throw new Error("ko thể xóa danh mục chứa sách")
+
     }
+    const result = await categoryModel.findByIdAndDelete(id);
 
-    const category = await categoryController.delete(id);
-
-    if (!category) {
-      return res.status(404).json({ error: 'Category not found' });
+    if (result){
+      res.status(200).json({ message: `sp ${id} xóa thành công` })
+    }else {
+      res.status(404).json({ error: `không tìm thấy sp: ${id}` });
     }
-
-    res.status(200).json({ message: 'Category deleted successfully' });
+    
   } catch (error) {
-    console.error('Error deleting category:', error.message);
+    console.error("lỗi khi xóa sp: ", error.message);
     res.status(500).json({ error: error.message });
   }
-});
+})
 
 
 module.exports = router;

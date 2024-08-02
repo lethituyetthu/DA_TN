@@ -6,14 +6,28 @@ import useFetchCate from "../../hooks/getCategory";
 import CategoryList from "../../components/admin/categoryList";
 
 const Categories = () => {
-  const { cate } = useFetchCate();
+  const { cate,deleteCate,addCate } = useFetchCate();
+  /* ===== thêm danh mục ===== */
+  const [newCate, setCate] = useState("")
+  const handleChange = (e) =>{
+    setCate(e.target.value)
+  }
+  const handleSubmit = async (event) =>{
+    event.preventDefault();
+    if(newCate.trim() === ""){
+      alert ("tên danh mục không thể được để trống")
+      return
+    }
+
+    await addCate({name : newCate})
+    setCate("")
+  }
+  
   /* ===== tìm kiếm danh mục theo tên ===== */
   const [search, setSearch] = useState("");
-
   const timkiem = (event) => {
     setSearch(event.target.value);
   };
-
   const fillterCate = cate.filter((e) =>
     e.name.toLowerCase().includes(search.toLowerCase())
   );
@@ -25,12 +39,14 @@ const Categories = () => {
           <p htmlFor="newCategory" className="form-label fs-5 text-danger fw-bold">
           Thể Loại Mới
           </p>
-          <form /* onSubmit={handleSubmitNewCategory} */ className="mb-4 d-flex">
+          <form onSubmit={handleSubmit} className="mb-4 d-flex">
             <div className="mb-3 col-sm-5">
               <input
                 type="text"
                 className="form-control"
-                id="newCategory"
+                id="newCate"
+                value={newCate}
+                onChange={handleChange}
                 placeholder="Nhập tên thể loại mới"
                 required
               />
@@ -67,7 +83,7 @@ const Categories = () => {
                   </tr>
                 </tfoot>
 
-                <CategoryList categories={search ? fillterCate : fillterCate} />
+                <CategoryList categories={search ? fillterCate : fillterCate} deleteCate={deleteCate} />
               </table>
             </div>
           </div>

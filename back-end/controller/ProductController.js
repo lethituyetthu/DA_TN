@@ -30,6 +30,9 @@ exports.findById = async (id) => {
 // Thêm sản phẩm mới
 exports.create = async (productData) => {
   try {
+    productData.createdAt = new Date();
+    productData.updatedAt = new Date();
+
     const newProduct = await productService.create(productData);
     return newProduct;
   } catch (error) {
@@ -43,6 +46,7 @@ exports.delete = async (id) => {
 // Cập nhật sản phẩm
 exports.update = async (id, productData) => {
   try {
+    productData.updatedAt = new Date();
     const product = await productService.update(id, productData);
     return product;
   } catch (error) {
