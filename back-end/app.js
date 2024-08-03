@@ -11,6 +11,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var productsRouter = require('./routes/products');
 var categoriesRouter = require('./routes/category');
+var staffRouter = require('./routes/staff');
 
 var app = express();
 
@@ -52,9 +53,11 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/products',productsRouter);
 app.use('/categories',categoriesRouter);
+app.use('/staff',staffRouter);
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   console.log(`http://localhost:${PORT}/products`);
+  console.log(`http://localhost:${PORT}/staff`);
   console.log(`http://localhost:${PORT}/products/66a1a2c62d1b61770fcf0052`);
   console.log(`http://localhost:${PORT}/categories`);
   console.log(`http://localhost:${PORT}/categories/66a1a4de2d1b61770fcf005b`);
