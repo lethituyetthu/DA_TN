@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
-
 const StaffSchema = new Schema({
   id: { type: ObjectId },
+
   name: {
     type: String,
     required: true,
@@ -17,7 +17,7 @@ const StaffSchema = new Schema({
     type: String,
     enum: ['nhân viên', 'quản lí'],
     required: true,
-  },
+  },  
   password: {
     type: String,
     required: true,
