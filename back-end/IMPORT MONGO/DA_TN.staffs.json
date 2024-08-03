@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "66ae37eb3d0719c3a6d48672"
+  },
+  "name": "Nguyễn Văn A",
+  "email": "nguyenvana@example.com",
+  "role": "nhân viên",
+  "password": "password123",
+  "phone": "0901234567"
+},
+{
+  "_id": {
+    "$oid": "66ae37eb3d0719c3a6d48673"
+  },
+  "name": "Trần Thị B",
+  "email": "tranthib@example.com",
+  "role": "quản lí",
+  "password": "securePassword!@#",
+  "phone": "0912345678"
+}]

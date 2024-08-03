@@ -1,18 +1,203 @@
 [{
   "_id": {
-    "$oid": "66a70de5d12f722636bdf9db"
+    "$oid": "66a1a1d72d1b61770fcf0051"
   },
-  "title": "Nỗi Buồn Chiến Tranh",
-  "img": "https://upload.wikimedia.org/wikipedia/vi/1/11/Noi_buon_chien_tranh.jpg",
-  "author": "Bảo Ninh",
-  "price": 200000,
-  "quantity": 20,
-  "description": "là một tiểu thuyết sâu sắc về nỗi đau và tổn thương mà chiến tranh gây ra. Câu chuyện xoay quanh Kiên, một cựu chiến binh Việt Nam, người sống sót sau cuộc chiến tranh chống Mỹ. Cuốn sách sử dụng phong cách dòng ý thức để kể lại những ký ức và trải nghiệm rời rạc của Kiên, từ những trận chiến khốc liệt đến những mất mát cá nhân. Qua đó, tác phẩm truyền tải một thông điệp mạnh mẽ về sự tàn phá của chiến tranh và những vết thương tâm lý mà nó để lại cho những người tham gia",
-  "sold": 1,
-  "view": 2,
-  "createdAt": "2024-07-29",
-  "updatedAt": "2024-07-29",
+  "title": "Sample Product test",
+  "img": "http://example.com/sample-product.jpg",
+  "author": "Author Name test",
+  "price": 110,
   "categoryId": {
-    "$oid": "669494f02ec417efbac431e1"
-  }
+    "$oid": "66a1a4de2d1b61770fcf005b"
+  },
+  "description": "This is a sample product test.",
+  "quantity": 10,
+  "sold": 0,
+  "view": 5,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2c62d1b61770fcf0052"
+  },
+  "title": "Tô Bình Yên Vẽ Hạnh Phúc (Tái bản 2022)",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935325006289.jpg",
+  "author": "Kulzsc",
+  "price": 68640,
+  "categoryId": {
+    "$oid": "66a1a4de2d1b61770fcf005b"
+  },
+  "description": "Không giống với những cuốn sách chỉ để đọc, “Tô bình yên – vẽ hạnh phú…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2cd2d1b61770fcf0053"
+  },
+  "title": "MBA Bằng Hình - The Usual MBA",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235238978.jpg",
+  "author": "Jason Barron , MBA",
+  "price": 151200,
+  "categoryId": {
+    "$oid": "66a1a5532d1b61770fcf005c"
+  },
+  "description": "Jason Barron mang lại cái nhìn cận cảnh về cấu trúc của khóa học MBA t…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2d32d1b61770fcf0054"
+  },
+  "title": "Kế Toán Vỉa Hè - Thực Hành Báo Cáo Tài Chính Căn Bản Từ Quầy Bán Nước",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/9/7/9786047787616.jpg",
+  "author": "Darrell Mullis, Judith Orloff",
+  "price": 179100,
+  "categoryId": {
+    "$oid": "66a1a5532d1b61770fcf005c"
+  },
+  "description": "Đã bao lần bạn cầm trên tay bảng báo cáo tài chính doanh nghiệp của mì…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2db2d1b61770fcf0055"
+  },
+  "title": "38 Bức Thư Rockefeller Gửi Cho Con Trai",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/9/7/9786044777481.jpg",
+  "author": "Thanh Hương",
+  "price": 69000,
+  "categoryId": {
+    "$oid": "66a1a5592d1b61770fcf005d"
+  },
+  "description": "Cô người khởi tâm ác mà thực ra lại là làm việc thiện. Nhưng nhà kia g…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2e32d1b61770fcf0056"
+  },
+  "title": "Kỹ Năng Mềm Thời Đại 4.0 - Chỉ Sợ Bạn Một Đời Tầm Thường Lại Cho Rằng",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_225792.jpg",
+  "author": "Bích Ngọc",
+  "price": 72000,
+  "categoryId": {
+    "$oid": "66a1a5592d1b61770fcf005d"
+  },
+  "description": "Bạn nói cần giảm cân để gầy và mỏng như siêu mẫu, nhưng hễ nhìn thấy đ…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2eb2d1b61770fcf0057"
+  },
+  "title": "Lược Sử Nước Việt Bằng Tranh (Tái Bản 2022)",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935244874389.jpg",
+  "author": "Tạ Huy Long, Dương Trung Quốc, Hiếu Minh, Huyền Trang",
+  "price": 119000,
+  "categoryId": {
+    "$oid": "66a1a5612d1b61770fcf005e"
+  },
+  "description": "Dòng sử Việt trôi xuôi từ thượng nguồn lịch sử, thuở cha Lạc Long Quân…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2f12d1b61770fcf0058"
+  },
+  "title": "Tranh Truyện Lịch Sử Việt Nam - Lý Thánh Tông (Tái Bản 2023)",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/t/r/tranh-truyen-lich-su…",
+  "author": "Lê Minh Hải, Hiếu Minh",
+  "price": 15000,
+  "categoryId": {
+    "$oid": "66a1a5612d1b61770fcf005e"
+  },
+  "description": "Dòng sử Việt trôi xuôi từ thượng nguồn lịch sử, thuở cha Lạc Long Quân…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2f82d1b61770fcf0059"
+  },
+  "title": "\"Chém\" Tiếng Anh Không Cần Động Não - Tặng Kèm Bộ Video Luyện Nghe-Nói",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/c/h/chemta-bino_bia1.jpg",
+  "author": "Bino Chém Tiếng Anh",
+  "price": 125000,
+  "categoryId": {
+    "$oid": "66a1a5672d1b61770fcf005f"
+  },
+  "description": "“Chém tiếng Anh không cần động não” của tác giả Bino - chủ kênh TikTok…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66a1a2fe2d1b61770fcf005a"
+  },
+  "title": "Numbers Is English - Cách Nói Số Chuẩn",
+  "img": "https://cdn0.fahasa.com/media/catalog/product/n/u/numbersisenglish.jpg",
+  "author": "Jonathan Davis, Hyunjung Yu",
+  "price": 119000,
+  "categoryId": {
+    "$oid": "66a1a5672d1b61770fcf005f"
+  },
+  "description": "Numbers in English – Cách nói số chuẩn là cuốn sách có thể giúp bạn đọ…",
+  "quantity": 100,
+  "sold": 0,
+  "view": 0,
+  "createdAt": "2024-07-29",
+  "updatedAt": "2024-07-29"
+},
+{
+  "_id": {
+    "$oid": "66aadb012722b6b0bc87a939"
+  },
+  "title": "Sample Product",
+  "price": 100,
+  "description": "This is a sample product.",
+  "img": "http://example.com/sample-product.jpg",
+  "author": "Author Name",
+  "categoryId": {
+    "$oid": "66a1a4de2d1b61770fcf005b"
+  },
+  "quantity": 10,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-01T00:46:57.344Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-01T00:46:57.344Z"
+  },
+  "__v": 0
 }]
