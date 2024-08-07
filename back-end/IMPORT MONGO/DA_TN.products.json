@@ -7,12 +7,635 @@
   "author": "Bảo Ninh",
   "price": 200000,
   "quantity": 20,
-  "description": "là một tiểu thuyết sâu sắc về nỗi đau và tổn thương mà chiến tranh gây ra. Câu chuyện xoay quanh Kiên, một cựu chiến binh Việt Nam, người sống sót sau cuộc chiến tranh chống Mỹ. Cuốn sách sử dụng phong cách dòng ý thức để kể lại những ký ức và trải nghiệm rời rạc của Kiên, từ những trận chiến khốc liệt đến những mất mát cá nhân. Qua đó, tác phẩm truyền tải một thông điệp mạnh mẽ về sự tàn phá của chiến tranh và những vết thương tâm lý mà nó để lại cho những người tham gia",
+  "description": "Là một tiểu thuyết sâu sắc về nỗi đau và tổn thương mà chiến tranh gây ra. Câu chuyện xoay quanh Kiên, một cựu chiến binh Việt Nam, người sống sót sau cuộc chiến tranh chống Mỹ. Cuốn sách sử dụng phong cách dòng ý thức để kể lại những ký ức và trải nghiệm rời rạc của Kiên, từ những trận chiến khốc liệt đến những mất mát cá nhân. Qua đó, tác phẩm truyền tải một thông điệp mạnh mẽ về sự tàn phá của chiến tranh và những vết thương tâm lý mà nó để lại cho những người tham gia",
   "sold": 1,
   "view": 2,
   "createdAt": "2024-07-29",
-  "updatedAt": "2024-07-29",
+  "updatedAt": {
+    "$date": "2024-08-02T16:38:24.719Z"
+  },
   "categoryId": {
     "$oid": "669494f02ec417efbac431e1"
   }
+},
+{
+  "_id": {
+    "$oid": "66ad0e012a7e1442351eeb30"
+  },
+  "title": "Sống để kể lại những anh hùng",
+  "price": 250650,
+  "description": "Cuốn sách \"Sống để kể lại những anh hùng\" gồm 400 trang, với 30 câu chuyện kể về những con người anh hùng trong cuộc kháng chiến chống Mỹ cứu nước, đã đi vào huyền thoại của Quân đội nhân dân Việt Nam (QĐNDVN) như: Đại tá, nhà văn, Anh hùng lực lượng vũ trang nhân dân (AHLLVTND) Nguyễn Văn Tàu (tức Tư Cang, nguyên Cụm trưởng cụm tình báo quân sự H63), AHLLVTND Lê Bá Ước (tức Bảy Ước); Đại tá, phi công Nguyễn Văn Bảy, AHLLVTND, nguyên Phó Tham mưu trưởng Quân chủng Phòng không - Không quân; Thiếu tướng Phạm Xuân Ẩn; nhà tình báo Lê Hữu Thúy... Mỗi bài viết là một câu chuyện hy sinh thầm lặng, cũng như những mất mát vô cùng to lớn của người lính cụ Hồ đã chiến đấu kiên cường để có được hòa bình như hôm nay. Những người lính cụ Hồ được kể trong trang sách là những nhân vật anh hùng từ lực lượng bộ binh, đặc công đến tình báo, biệt động, không quân... Họ đã trở thành huyền thoại, là biểu tượng của lòng dũng cảm, mưu trí, quật cường.\n\nCuốn sách là ghi chép về người thực, việc thực của những người anh hùng trong cuộc trường chinh 30 năm đầy gian khổ của dân tộc mà nhà văn Nguyễn Quang Chánh đã từng gặp ngoài đời hoặc từng trực tiếp được nghe người thân, đồng chí, đồng đội của họ kể lại một cách chân thật. Ngày hòa bình, họ lại lui về phía sau, sống một cuộc đời khiêm nhường của người lính, xứng danh anh Bộ đội Cụ Hồ, không bon chen, không kể công, không thu vén cho cá nhân, khiêm tốn kể lại chuyện đánh giặc giữ nước cho con cháu nghe.\n\nĐây là cuốn sách thứ 3 viết về những nhân vật anh hùng cách mạng của tác giả Nguyễn Quang Chánh. Trước đó, là các tác phẩm: Những anh hùng sống mãi trong lòng dân (2020) và Kể chuyện cụm tình báo H.63 (tháng 6/2023).\n\n“Năm tháng sẽ lùi xa, song những câu chuyện kể chân thật như thế này sẽ giúp mọi người nhớ mãi về lòng yêu nước, sự hy sinh vô bờ bến của những người chiến sĩ, bộ đội cụ Hồ. Cuốn sách là những tư liệu tốt để giáo dục lòng yêu nước\" - Đại tướng Phạm Văn Trà, nguyên Ủy viên Bộ Chính trị, nguyên Bộ trưởng Bộ Quốc phòng nhận định về cuốn sách này.",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/976/976c937c348f90e844b73da08209084f/f60b2f81dc59ac9e6083682c964d94f8",
+  "author": "Nguyễn Quang Chánh",
+  "categoryId": {
+    "$oid": "669495672ec417efbac431ea"
+  },
+  "quantity": 111,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T16:49:05.427Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T16:50:10.084Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad0ec22a7e1442351eeb47"
+  },
+  "title": "Chuyển đổi số đến cốt lõi - Nâng tầm năng lực lãnh đạo cho ngành nghề, doanh nghiệp và chính bản",
+  "price": 210800,
+  "description": "Nhận thức rõ chuyển đổi số là xu thế tất yếu, là con đường đưa từng chủ thể và đất nước phát triển, ngày 03/6/2020 Thủ tướng Chính phủ đã ban hành Quyết định số 749/QĐ-TTg phê duyệt Chương trình chuyển đổi số quốc gia đến năm 2025, định hướng năm 2030 nhằm mục tiêu phát triển Chính phủ số, kinh tế số, xã hội số đồng thời hình thành các doanh nghiệp công nghệ số Việt Nam có năng lực đi ra toàn cầu. Để cung cấp kiến thức và cách thức về chuyển đổi số cho các nhà quản lý, lãnh đạo doanh nghiệp, hoạch định chiến lược…, Nhà xuất bản Thông tin và Truyền thông đã nghiên cứu, lựa chọn và xuất bản cuốn sách “Chuyển đổi số đến cốt lõi: Nâng tầm năng lực lãnh đạo cho ngành nghề, doanh nghiệp và chính bản thân bạn” của đồng tác giả Mark Raskino và Graham Waller - những nhà phân tích xuất sắc của Gartner, Inc (Công ty nghiên cứu và tư vấn về công nghệ thông tin, tài chính, doanh nghiệp, khách hàng… hàng đầu thế giới). Để chuyển đổi số thành công, mỗi doanh nghiệp và đội ngũ lãnh đạo cần tự làm mới mình, bắt đầu bằng việc xác định các chiến lược tổng thể chủ đạo, sau đó dẫn dắt tổ chức của họ ở ba cấp độ: ngành nghề, doanh nghiệp và bản thân. Ba cấp độ này đã được trình bày cụ thể trong nội dung của cuốn sách với những chỉ dẫn và thực tiễn điển hình từ các thành công của các nhà lãnh đạo kỹ thuật số, từ các nghiên cứu của Gartner và dữ liệu khảo sát hàng năm với hơn ba mươi nhà lãnh đạo cấp điều hành của các công ty toàn cầu, tổ chức chính phủ cũng như dữ liệu khảo sát từ CIO, CEO, giám đốc kỹ thuật số của Gartner. Trong cuốn sách này, tác giả đưa ra nhiều ví dụ cụ thể về các tổ chức đã thành công khi đi đầu trong lĩnh vực kinh doanh số, như: Để ứng dụng phát triển công nghệ số, Ford đã đầu tư phát triển công nghệ tự vận hành cho sản phẩm xe hơi của mình hay như Bệnh viện Bundang của Đại học Quốc gia Seoul đã ứng dụng công nghệ số cho hoạt động quản lý điều trị ngoại trú tốt hơn cho bệnh nhân tiểu đường bằng phương pháp giám sát từ xa hoặc Tập đoàn ngân hàng đa quốc gia (BBVA) phân tích dữ liệu vị trí và lịch sử các giao dịch thanh toán để tạo ra điểm tín dụng tốt hơn cho các lĩnh vực bán lẻ... Chuyển đổi số đến cốt lõi hứa hẹn sẽ giúp các nhà quản lý, lãnh đạo doanh nghiệp hiểu được tầm quan trọng của chuyển đổi số, tác động của chuyển đổi số đến cốt lõi của doanh nghiệp, nắm bắt được các cơ hội một cách kịp thời cũng như phải tự thay đổi chính bản thân mình để chuyển đổi số thành công. Đây cũng là vận hội, thời cơ để các nước đang phát triển như Việt Nam có thể bắt kịp, đi cùng và vượt lên thành nước phát triển.",
+  "img": "https://book365.vn/upload/uf/6ae/ueleqlrqdnofcwgb7iaymmlzlak0qp48.jpeg",
+  "author": "Mark Raskino - Graham Waller",
+  "categoryId": {
+    "$oid": "6694955c2ec417efbac431e9"
+  },
+  "quantity": 80,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T16:52:18.924Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T16:52:18.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad0f182a7e1442351eeb56"
+  },
+  "title": "Kết cấu ô tô",
+  "price": 134300,
+  "description": "Kết cấu ô tô là cuốn sách trình bày về cấu tạo, nguyên lý làm việc của các hệ thống, cụm, bộ phận, chi tiết của ô tô con, ô tô chở người, ô tô tải, ô tô chuyên dụng. Các kết cấu đề cập trong sách được định hướng theo tính cơ bản và hiện đại.\nCuốn sách được dùng làm giáo trình cho sinh viên ngành Cơ khí động lực và tài liệu tham khảo cho các cấp độ học viên trong và ngoài chuyên ngành liên quan tới công nghệ ô tô. Sách đồng thời có thể dùng trong các khóa đào tạo cao đẳng, trung cấp, công nhân kỹ thuật của chuyên ngành ô tô máy kéo và là tài liệu tự học cho cán bộ kỹ thuật trong và ngoài chuyên ngành, nhằm xây dựng các hiểu biết về cấu trúc của ô tô theo định hướng: thiết kế chế tạo và khai thác sử dụng các loại ô tô đang dùng ở nước ta.",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/7cb/7cb3dea4f387deb96380b76514a012b7/0fbe62bb05d93b01f28e08174c1e179d",
+  "author": " Tập thể tác giả",
+  "categoryId": {
+    "$oid": "6694955c2ec417efbac431e9"
+  },
+  "quantity": 60,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T16:53:44.997Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T16:53:44.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad0fa02a7e1442351eeb61"
+  },
+  "title": "Những đứa trẻ không bao giờ lớn",
+  "price": 81000,
+  "description": "“Tôi muốn quay ngược thời gian và trở lại tuổi thơ.\n\nKhi “Bố” là “Anh hùng và “Tình yêu” là “Cái ôm của mẹ”.\n\n“Nơi cao nhất trên thế giới này” là “Bờ vai của bố”.\n\nĐiều duy nhất có thể gây “đau đớn” là “Xước đầu gối”.\n\nThứ duy nhất “Vỡ vụn” là “Đồ chơi”. Và khi...\n\n“Tạm biệt” có nghĩa là “ Hẹn gặp lại vào ngày mai”.\n\nCách đây 3 năm, khi mới phát hành, đoạn văn trích trong cuốn \"Những đứa trẻ không bao giờ lớn\" đã trở thành hot trend, được rất nhiều độc giả chia sẻ. Cuốn sách năm ấy cũng trở thành hiện tượng, lọt bảng xếp hạng của rất nhiều trang bán sách.\n\nLần này, Những đứa trẻ không bao giờ lớn trở lại với bạn đọc với diện mạo trưởng thành hơn, chín chắn hơn, chắc chắn sẽ mang lại một cảm xúc mới cho những ai từng yêu mến cuốn sách và tác giả Dương Minh Tuấn.\n\nXin trích lại một review vô cùng chân thật và đầy đủ của một bạn đọc để mọi người có cái nhìn khác về cuốn sách ý nghĩa này:\n\n\"Cuốn sách Những đứa trẻ không bao giờ lớn mở đầu với lời đề từ đầy chiêm nghiệm, có lẽ sẽ không khó đoán, màu sắc trầm mặc lạnh lẽo của cô đơn, của thương nhớ, của đắng cay… sẽ bao trùm lên từng trang từng trang của cuốn sách này.",
+  "img": "https://book365.vn/upload/uf/01a/9ylx3v24iy15ghunzcbpvyrqq6ohwy0j.jpeg",
+  "author": "Dương Minh Tuấn",
+  "categoryId": {
+    "$oid": "669494f02ec417efbac431e1"
+  },
+  "quantity": 20,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T16:56:00.865Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T16:56:00.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad0fff2a7e1442351eeb6c"
+  },
+  "title": "Việt Nam sử lược",
+  "price": 382000,
+  "description": "Đầu thế kỷ XX, giữa lúc nền học thuật nước nhà chỉ có các bộ đại tác như Đại Việt sử ký toàn thư hay Khâm định Việt sử thông giám cương mục là nguồn sử liệu chính thống nhưng chưa đáp ứng nhu cầu tìm hiểu lịch sử của phần đông dân chúng, thì Việt Nam sử lược, với tư cách là bộ thông sử chi tiết đầu tiên được viết bằng chữ quốc ngữ, đã xuất hiện và nhanh chóng thu hút sự quan tâm của độc giả lẫn giới nghiên cứu cả nước. Từ đó đến nay đã 100 năm trôi qua, tác phẩm vẫn giữ nguyên giá trị và là quyển sách vỡ lòng quen thuộc cho những ai bắt đầu tìm hiểu lịch sử Việt Nam.\n\nĐể góp phần hoàn thiện và phổ biến “tấm Nam sử” mà học giả Trần Trọng Kim đã dệt những sợi đầu tiên cách nay đúng một thế kỷ, Đông A tiến hành tái bản tác phẩm Việt Nam sử lược, dựa theo bản in của nhà Tân Việt năm 1954, có bổ sung một số chi tiết từ các bản in năm 1920, 1928 và 1971. Đồng thời, chúng tôi tuyển lựa và thêm vào một số hình ảnh minh họa từ nguồn tranh dân gian, bảo tàng và một số tư liệu sách báo xưa, với mong muốn gửi tới bạn đọc một ấn bản không chỉ chỉn chu về mặt nội dung mà còn trang nhã về mặt hình thức, nhân kỷ niệm 100 năm ngày tác phẩm ra đời 1920 - 2020.",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/eee/eeeeff18fb67aae704eddb57f9cdeee8/24fbe052d07c1aaddb2f1b294eb174f5",
+  "author": "Trần Trọng Kim",
+  "categoryId": {
+    "$oid": "669495672ec417efbac431ea"
+  },
+  "quantity": 50,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T16:57:35.075Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T16:57:35.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad10342a7e1442351eeb77"
+  },
+  "title": "Thế giới nhìn nghiêng...Bang giao kể chuyện",
+  "price": 74000,
+  "description": "Trong dòng chảy văn minh nhân loại, lịch sử các dân tộc luôn vận động, biến đổi không ngừng, cùng với đó là những dấu ấn về kinh tế, văn hóa, chính trị, xã hội, hình thành nên bản sắc, đặc trưng riêng có của mỗi quốc gia.\n\nĐặc biệt, trong hai thập niên chuyển giao cuối thế kỷ XX, đầu thế kỷ XXI, tình hình kinh tế – chính trị thế giới có nhiều biến động sâu sắc. Trong đó, quan hệ bang giao giữa các cường quốc như Nga – Mỹ, chính sách, kế hoạch hành động của tổ chức G7, G20, sự phát triển như vũ bão của khoa học công nghệ, trật tự tiền tệ,… đã tác động mạnh mẽ đến cục diện toàn cầu. Sự phát triển thần kỳ, vượt trội của Nhật Bản, Hồng Kông (Trung Quốc), Hàn Quốc, sự lớn mạnh của khối ASEAN, sự thức tỉnh của “con rồng Trung Hoa” đã đem đến hình ảnh một châu Á năng động, hội nhập với nhiều bài học, kinh nghiệm thành công cho các quốc gia trong và ngoài khu vực; là tiền đề tạo nên cục diện thế giới mới trong thế kỷ XXI.\n\nThực hiện đường lối đối ngoại hòa bình, hữu nghị, Việt Nam đã từng bước thiết lập quan hệ ngoại giao với các nước, tham gia nhiều tổ chức quốc tế, ngày càng nâng cao vị thế quốc gia, đóng góp vào việc xây dụng hòa bình, ổn định và phát triển trên thế giới.\n\nTrong cuốn sách Thế giới nhìn nghiêng… Bang giao kế chuyện, tác giả Vũ Sơn Thủy – Đại sứ, Nhà báo, nguyên Tổng Biên tập Báo Thế giới và Việt Nam, Bộ Ngoại giao đã chia sẻ, phân tích những câu chuyện sinh động từ châu Âu đến châu Á, châu Đại Dương, châu Mỹ… Mỗi câu chuyện là một góc nhìn mới, chân thực, sắc sảo về lịch sử hình thành, sự vận động, biến đổi của quốc gia, tổ chức quốc tế, hay các mối bang giao, những vấn đề quốc tế cách đây vài chục năm nhưng đến nay vẫn còn nguyên giá trị thời đại… Qua ngôn từ sống động, giàu hình ảnh, những vấn đề được nhìn nhận, phân tích một cách thấu đáo, đi sâu vào bản chất trong mối liên hệ, so sánh với quá khứ và những dự báo tương lai. Tác giá cũng đã phác họa bức tranh ngoại giao Việt Nam thời đại Hồ Chí Minh, đồng thời gửi gắm tình cảm sâu đậm trong những trang ký ức về một số nhà lãnh đạo của đất nước.",
+  "img": "https://book365.vn/upload/uf/168/f9a0ircgjm3a35vkyhjqmvsa8w7ks3n4.png",
+  "author": " Vũ Sơn Thủy",
+  "categoryId": {
+    "$oid": "669495732ec417efbac431eb"
+  },
+  "quantity": 70,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T16:58:28.990Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T16:58:28.990Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad110b2a7e1442351eeb82"
+  },
+  "title": "Trí tuệ xúc cảm",
+  "price": 179000,
+  "description": "Trí Tuệ Xúc Cảm đã nằm trong danh sách bán chạy nhất của Thời báo New York trong một năm rưỡi, với hơn 5.000.000 bản in trên toàn thế giới bằng 40 ngôn ngữ và đã là sách bán chạy nhất ở nhiều quốc gia. Sách đã được Tạp chí TIME vinh danh là một trong 25 “Cuốn sách quản lý kinh doanh có ảnh hưởng nhất” Với bản Tiếng Việt được Alpha Books mua bản quyền và độc quyền phát hành từ 2008, được vô vàn độc giả đón nhận với hơn 50.000 bản được bán ra, và cũng trở thành 1 trong những cuốn bestseller. Ai cũng biết điểm IQ cao chưa chắc đã đảm bảo cho một cuộc đời thành công, hạnh phúc và đức hạnh. Nhưng chỉ đến khi đọc Trí Tuệ Xúc Cảm (Emotional Intelligence) của Daniel Goleman, chúng ta mới có thể lý giải tại sao. Dựa trên những quan sát và nghiên cứu nhiều năm trong lĩnh vực tâm lý và khoa học thần kinh, tác giả đã mang đến một cái nhìn mới mẻ về hai loại trí tuệ bên trong mỗi con người - lý trí và cảm xúc - cùng cách mà chúng định hình số phận của chúng ta. Trong sách, Daniel Goleman chỉ ra một số yếu tố khiến người IQ cao có thể gặp lúng túng trong công việc, còn người IQ thấp hơn lại đạt hiệu suất đáng kinh ngạc. Đó là sự tự ý thức, tính kỷ luật tự giác, sự đồng cảm, ... và chúng không bị mặc định từ khi sinh ra. Trí tuệ cảm xúc được bồi đắp bởi những trải nghiệm từ khi còn nhỏ, nhưng nó cũng có thể được nuôi dưỡng và tăng cường trong quá trình mỗi cá nhân trưởng thành, đem đến lợi ích cho sức khỏe, công việc và cả các mối quan hệ của họ. Về tác giả: Daniel Goleman sinh năm 1946, tốt nghiệp Đại học Harvard, là một nhà tâm lý học nổi tiếng thế giới, người thường xuyên thuyết trình cho các nhóm chuyên nghiệp, khán giả kinh doanh và trong khuôn viên trường đại học. Là một nhà báo khoa học, Goleman đã báo cáo về não bộ và khoa học hành vi cho The New York Times trong nhiều năm. Ngoài những cuốn sách về trí tuệ cảm xúc, Goleman còn viết sách về các chủ đề bao gồm lừa dối bản thân, sáng tạo, minh bạch, thiền định, học tập xã hội và cảm xúc, tỷ lệ học điện tử và khủng hoảng sinh thái. Không chỉ vậy, Goleman còn là người đồng sáng lập Tổ chức Hợp tác về Học thuật, Xã hội và Cảm xúc; đồng chỉ đạo Hiệp hội Nghiên cứu về Trí tuệ Cảm xúc trong các Tổ chức; và là thành viên hội đồng quản trị của Viện Tâm trí & Cuộc sống. Mã hàng 8935251416664 Tên Nhà Cung Cấp Alpha Books Tác giả Daniel Goleman Người Dịch Nguyễn Lê Phương, Phạm Thị Thu Hà NXB NXB Công Thương Năm XB 2021 Trọng lượng (gr) 500 Kích Thước Bao Bì 23 x 15 cm x 2.3 Số trang 468 Hình thức Bìa Mềm Sản phẩm hiển thị trong Tủ Sách Tâm Lý Kỹ Năng Sản phẩm bán chạy nhất Top 100 sản phẩm Kỹ năng sống bán chạy của tháng Giá sản phẩm trên Fahasa.com đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như Phụ phí đóng gói, phí vận chuyển, phụ phí hàng cồng kềnh,... Chính sách khuyến mãi trên Fahasa.com không áp dụng cho Hệ thống Nhà sách Fahasa trên toàn quốc Trí Tuệ Xúc Cảm đã nằm trong danh sách bán chạy nhất của Thời báo New York trong một năm rưỡi, với hơn 5.000.000 bản in trên toàn thế giới bằng 40 ngôn ngữ và đã là sách bán chạy nhất ở nhiều quốc gia. Sách đã được Tạp chí TIME vinh danh là một trong 25 “Cuốn sách quản lý kinh doanh có ảnh hưởng nhất” Với bản Tiếng Việt được Alpha Books mua bản quyền và độc quyền phát hành từ 2008, được vô vàn độc giả đón nhận với hơn 50.000 bản được bán ra, và cũng trở thành 1 trong những cuốn bestseller. Ai cũng biết điểm IQ cao chưa chắc đã đảm bảo cho một cuộc đời thành công, hạnh phúc và đức hạnh. Nhưng chỉ đến khi đọc Trí Tuệ Xúc Cảm (Emotional Intelligence) của Daniel Goleman, chúng ta mới có thể lý giải tại sao. Dựa trên những quan sát và nghiên cứu nhiều năm trong lĩnh vực tâm lý và khoa học thần kinh, tác giả đã mang đến một cái nhìn mới mẻ về hai loại trí tuệ bên trong mỗi con người - lý trí và cảm xúc - cùng cách mà chúng định hình số phận của chúng ta. Trong sách, Daniel Goleman chỉ ra một số yếu tố khiến người IQ cao có thể gặp lúng túng trong công việc, còn người IQ thấp hơn lại đạt hiệu suất đáng kinh ngạc. Đó là sự tự ý thức, tính kỷ luật tự giác, sự đồng cảm, ... và chúng không bị mặc định từ khi sinh ra. Trí tuệ cảm xúc được bồi đắp bởi những trải nghiệm từ khi còn nhỏ, nhưng nó cũng có thể được nuôi dưỡng và tăng cường trong quá trình mỗi cá nhân trưởng thành, đem đến lợi ích cho sức khỏe, công việc và cả các mối quan hệ của họ.",
+  "img": "https://book365.vn/upload/uf/4e0/m8fzy3lcih8zkrzgaz0et3cmw2ovtgh3.jpg",
+  "author": "Daniel Goleman",
+  "categoryId": {
+    "$oid": "669495e62ec417efbac431f4"
+  },
+  "quantity": 66,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:02:03.998Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:03:49.383Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad120c057e63a5f12dc292"
+  },
+  "title": "Tuổi thơ dữ dội - Tập 2",
+  "price": 72000,
+  "description": "“Tuổi Thơ Dữ Dội” là một câu chuyện hay, cảm động viết về tuổi thơ. Sách dày 404 trang mà người đọc không bao giờ muốn ngừng lại, bị lôi cuốn vì những nhân vật ngây thơ có, khôn ranh có, anh hùng có, vì những sự việc khi thì ly kỳ, khi thì hài hước, khi thì gây xúc động đến ứa nước mắt...\"Tuổi Thơ Dữ Dội” không phải chỉ là một câu chuyện cổ tích, mà là một câu chuyện có thật ở trần gian, ở đó, những con người tuổi nhỏ đã tham gia vào cuộc kháng chiến chống xâm lược bảo vệ Tổ quốc với một chuỗi những chiến công đầy ắp li kì và hấp dẫn. Đọc Tuổi Thơ Dữ Dội chính là đọc lại một phần lịch sử tuổi thơ Việt, thấm đẫm xúc động, cảm phục và tự hào...\"Nhà thơ - nhạc sĩ Nguyễn Trọng Tạo\"Có một viên ngọc quý thời gian dành riêng để ban tặng con người, đó là Tuổi thơ. Viên ngọc màu nhiệm, trong sáng nhưng quá mong manh, không thể tìm thấy lần thứ hai trong đời. Và có một thế hệ người Việt chưa bao giờ được cầm viên ngọc trên tay, “Tuổi thơ dữ dội” của Phùng Quán được viết cho thế hệ đó. Hãy đọc để nhớ lại, để tự hào, và để cầu nguyện cho những Tuổi thơ sắp ra đời…”Nhà văn Hoàng Phủ Ngọc Tường",
+  "img": "https://book365.vn/upload/uf/7bb/d8jxkirvmtwkqko98h9lh45wpnrpmpkq.jpeg",
+  "author": " Phùng Quán",
+  "categoryId": {
+    "$oid": "6694958e2ec417efbac431ed"
+  },
+  "quantity": 44,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:06:20.211Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:06:20.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad1242057e63a5f12dc29d"
+  },
+  "title": "Chiếc gối biết nói",
+  "price": 67000,
+  "description": "Những ngôi sao đã mọc trên nền trời đêm.Đến giờ bé vào giường ngủ rồi.Ba mẹ lật quyển sách tuyệt đẹp này ra, cùng bé vào thế giới trẻ thơ, bay trên đám mây của những câu chuyện đáng yêu, lắng nghe gió thì thầm các vần thơ ngộ nghĩnh, và lim dim mắt ngắm nhìn các bức tranh màu sắc dịu êm…Những câu chuyện trước giờ đi ngủ và vòng tay ấm áp của ba mẹ sẽ đưa bé vào giấc mơ thần tiên. Nhà thơ Phạm Thị Ngọc LiênSinh tại Hà Nội, hiện sống và làm việc tại thành phố Hồ Chí MinhHội viên Hội Nhà Văn Việt Nam",
+  "img": "https://book365.vn/upload/uf/161/wn3y1vv1q8a6i9qj1hdeiixk89uk1af7.jpeg",
+  "author": " Ru-oi, Phạm Thị Ngọc Liên",
+  "categoryId": {
+    "$oid": "6694958e2ec417efbac431ed"
+  },
+  "quantity": 92,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:07:14.952Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:07:14.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad12a4057e63a5f12dc2a8"
+  },
+  "title": "TS Thu Giang - Óc sáng suốt",
+  "price": 48000,
+  "description": "Óc sáng suốt là một trong những tác phẩm tiêu biểu của học giả Thu Giang - Nguyễn Duy Cần. Thông qua cuốn sách này, tác giả hướng dẫn cho người đọc những phương pháp để rèn luyện cho mình một bộ óc minh mẫn và sáng suốt, tư duy có hiệu quả để thành công trong công việc và cuộc sống. Cuốn sách này xuất bản lần đầu tiên cách đây hơn nửa thế kỷ (1952), dù đã trải qua một thời gian rất dài nhưng giá trị tư tưởng của sách vẫn phù hợp và có thể áp dụng trong đời sống hiện nay. Trân trọng giới thiệu cùng độc giả.",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/aa4/aa45b1a6f7639054d3eef1ac3e27087c/bd3bf40d692421370b1ca7f9b5d488d5",
+  "author": " Thu Giang - Nguyễn Duy Cần",
+  "categoryId": {
+    "$oid": "669495732ec417efbac431eb"
+  },
+  "quantity": 55,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:08:52.447Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:08:52.447Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad1314057e63a5f12dc2b3"
+  },
+  "title": "Học, Đọc sách và Sáng tạo",
+  "price": 254150,
+  "description": "Sách là kho tàng tri thức vô giá, giúp con người mở rộng tầm nhìn, bồi dưỡng tâm hồn, rèn luyện tư duy và hoàn thiện bản thân. Hướng tới Ngày Sách và Văn hóa đọc Việt Nam năm 2024 với thông điệp “Sách hay tìm bạn đọc”, Nhà xuất bản Thông tin và Truyền thông phối hợp cùng các chuyên gia, nhà khoa học, nhà giáo biên soạn và xuất bản cuốn sách “Học, Đọc sách và Sáng tạo” (Hay tư tưởng về phát triển con người) dạng cẩm nang, làm tài liệu tham khảo cho đông đảo bạn đọc trong học tập, nghiên cứu và công việc..\n\n\"Học, Đọc sách và Sáng tạo\" là tập hợp những lời dạy của Tiền nhân từ Cổ đến Kim, từ Đông sang Tây và những lời bàn của các nhà hoạt động văn hóa, giáo dục. Đây là tập sách sưu tầm, tuyển chọn, biên soạn do GS. TS Nguyễn Như Ý, TS Võ Thế Quân, TS Vũ Thùy Dương thực hiện.\n\nVới gần 400 trang, cuốn sách là một tác phẩm khá dày dặn, được nhóm tác giả gồm GS Nguyễn Như Ý, TS Trần Chí Đạt, TS Võ Thế Quân và TS Vũ Thùy Dương sưu tầm, tuyển chọn và biên soạn hết sức công phu, tâm huyết. Người đọc được dẫn dắt bởi một mạch cảm xúc xuyên suốt, mạch lạc tương ứng với 3 phần là những câu danh ngôn (hoặc có tính danh ngôn) của các nhà tư tưởng, nhà văn hóa, nhà giáo dục các nước và Việt Nam nói về việc dạy và học, việc đọc sách, việc sáng tạo của con người.\n\nCàng đọc sâu, càng suy ngẫm, càng cảm nhận được rõ đây không chỉ là một ấn bản thông thường mà nó có ích cho mọi người đang sống trong Nền Kinh tế/ Giáo dục chia sẻ có các tác động của cuộc cách mạng công nghiệp 4.0.",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/a9b/a9b7b5072139674fffda625513e1138b/3fc06260e559030cdc6fb25c92a3721f",
+  "author": " Nguyễn Như Ý - Trần Chí Đạt - Võ Thế Quân - Vũ Thùy Dương",
+  "categoryId": {
+    "$oid": "669495e62ec417efbac431f4"
+  },
+  "quantity": 50,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:10:44.666Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:12:58.768Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad1447057e63a5f12dc2cf"
+  },
+  "title": "Dưới trăng và một bậc cửa",
+  "price": 150000,
+  "description": "Tập thơ là những chiêm nghiệm của tác giả với cuộc sống xã hội đời thường",
+  "img": "https://book365.vn/upload/uf/f51/nwdxc1uy8ex2ssuwdc3bby2wqri1h5pe.jpeg",
+  "author": " Nguyễn Quang Thiều",
+  "categoryId": {
+    "$oid": "669495e62ec417efbac431f3"
+  },
+  "quantity": 53,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:15:51.802Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:15:51.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad1470057e63a5f12dc2da"
+  },
+  "title": "Xứ rung một ngọn mây",
+  "price": 112500,
+  "description": "Tập thơ ca ngợi vẻ đẹp mong manh bốn mùa trong năm",
+  "img": "https://book365.vn/upload/uf/c6a/pa5pqk8g9gqs6thqdwnouxszrxoay0zr.jpeg",
+  "author": "Trần Lê Khánh",
+  "categoryId": {
+    "$oid": "669495e62ec417efbac431f3"
+  },
+  "quantity": 70,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:16:32.557Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:16:32.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad158c7bd5336e9343ad9d"
+  },
+  "title": "Hãy Chăm Sóc mẹ",
+  "price": 76000,
+  "description": "Tác phẩm Hãy chăm sóc mẹ của nhà văn Hàn Quốc Kyung-sook Shin mở đầu bằng khung cảnh xáo trộn của một gia đình. Mẹ bị lạc khi chuẩn bị bước lên tàu điện ngầm cùng bố ở ga Seoul. Hai ông bà dự định lên đây thăm cậu con cả. Con gái đầu, Chi-hon, là người đứng ra viết thông báo tìm người lạc thay cho cả gia đình. “Ngoại hình: Tóc ngắn đã muối tiêu, xương gò má cao, khi đi lạc đang mặc áo sơ mi xanh da trời, áo khoác trắng, váy xếp nếp màu be”. Trong tiềm thức của mình, Chi-hon vẫn nghĩ mẹ là người thường“bước đi giữa biển người với phong thái có thể đe dọa cả những tòa nhà lừng lững đang nhìn thẳng xuống từ trên cao”. Trong khi đó, những người qua đường đáp lại thông báo tìm người lạc của cô bằng miêu tả về một “một bà già cứ lững thững bước đi, thỉnh thoảng lại ngồi bệt xuống đường hay đứng thẫn thờ trước cầu thang cuốn”. Liệu đó có phải là người mẹ mà cả gia đình cô đang cất công tìm kiếm? Một ngày, một tuần rồi gần một tháng chầm chậm trôi qua. Người chồng và những đứa con hiện đều đã phương trưởng cả không chỉ lo sốt vó mà còn day dứt tâm can vì cảm giác tội lỗi, và rối bời “trong nỗi hoảng loạn như thể tất cả mọi người đều bị tổn thương ở vùng não”. Họ cũng lấy làm băn khoăn tại sao mẹ không biết hỏi đường về nhà cậu con cả cho đến khi phát hiện ra hai sự thật rằng mẹ không biết chữ và mẹ bệnh ung thư vú khiến đầu óc không được minh mẫn như thường. Từ đây, những hy vọng tìm lại mẹ càng trở nên mong manh hơn… ",
+  "img": "https://book365.vn/upload/uf/87c/krq9izfnbggqrzblecp13unxch2auf2t.jpeg",
+  "author": " Shin Kyung sook",
+  "categoryId": {
+    "$oid": "669494932ec417efbac431e0"
+  },
+  "quantity": 44,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:21:16.772Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:21:48.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad16d67bd5336e9343adc0"
+  },
+  "title": "Chúng ta rồi sẽ hạnh phúc theo những cách khác nhau",
+  "price": 51000,
+  "description": "CHÚNG TA RỒI SẼ HẠNH PHÚC, THEO NHỮNG CÁCH KHÁC NHAU – THẢO THẢO\nBạn có từng đắm chìm trong vô vọng và không tìm ra lối thoát cho chuỗi ngày vụng dại tuổi trẻ của mình?\nBạn có từng muốn ngủ một giấc thật dài, sau khi tỉnh dậy sẽ chỉ còn những niềm vui ở lại?\nBạn có từng nghĩ rằng mình là người bất hạnh nhất trên thế gian này, khi những chuyện chẳng lành cứ dồn dập tới lui?\nTrên đời này có vô vàn định nghĩa về hạnh phúc, nhưng bằng cách này hay cách khác, rồi sau này chúng ta sẽ hạnh hạnh phúc, cho dù chúng ta có gặp nhầm bao người đi nữa.\nCHÚNG TA RỒI SẼ HẠNH PHÚC, THEO NHỮNG CÁCH KHÁC NHAU là một lời nhắn nhủ của tác giả Thảo Thảo đến tất cả mọi người rằng mỗi chúng ta đều là một cá thể duy nhất trong vũ trụ bao la rộng lớn, đừng bao giờ cho người khác quyền mang lại niềm vui hay nỗi buồn cho bạn. Hãy sống với những gì bạn muốn, làm nhũng gì bạn cho là đúng, bởi nếu cứ sống vì người khác, bạn sẽ đánh mất những-gì-đặc-biệt-nhất của bản thân mình.",
+  "img": "https://book365.vn/upload/uf/ca1/6vbg2f1x7mifnzte7e0d3gdqp6uyqnk4.jpeg",
+  "author": "Thảo Thảo",
+  "categoryId": {
+    "$oid": "669495512ec417efbac431e8"
+  },
+  "quantity": 30,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:26:46.910Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:26:46.910Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad17167bd5336e9343adcb"
+  },
+  "title": "Nếu em ở đây",
+  "price": 58000,
+  "description": "Bạn có đánh đổi điều gì để theo đuổi đam mê? Bạn có từng phản đối cha mẹ để chọn lựa con đường mình yêu thích?\nHồng Sakura được biết đến là tác giả của những câu chuyện tiểu thuyết đời thường. Là đâu đó trong những chuyện tình lãng mạn mơ mộng luôn có sự nghiệp, có bạn bè, gia đình và sự độc lập của nhân vật. \"Nếu em ở đây\" là tác phẩm thể hiện rõ nét phong cách ấy.\nNội dung truyện kể về câu chuyện của những người bạn sống cùng một khu trọ với những mục tiêu và tính cách rất khác nhau. Họ theo đuổi những đam mê và giấc mơ riêng trên những con đường không hề dễ dàng, nhưng lại đầy ắp yêu thương và nhiệt huyết tuổi trẻ. Dù nhân vật chính là Hồng Yên, những nhân vật xung quanh cô vẫn luôn toả sáng và ghi khắc dấu ấn của mình trong lòng độc giả. Một Quân phát-xít khẩu xà tâm phật, hay Khải trầm tính ấm áp nghĩa tình, và Thắng hoạt ngôn lại ẩn chứa nhiều nỗi đau giấu kín? Chúng ta không bao giờ thấy rõ được phần chìm của tảng băng, và càng không biết hết được người bên cạnh mình đang chịu đựng điều gì nếu không thật tâm muốn thấu hiểu.\nVẫn là lối viết phóng khoáng tự nhiên thường thấy, tác giả đã khéo léo lồng ghép một câu chuyện tiểu thuyết bên trong câu chuyện chính, nhưng lại hướng đến một kết thúc tốt đẹp hơn, như thái độ lạc quan và tích cực của chính tác giả đối với cuộc sống.",
+  "img": "https://book365.vn/upload/uf/537/n30963wqf2ado7lmfz4ae7mcjmgsn6sg.jpeg",
+  "author": "Hồng Shakura",
+  "categoryId": {
+    "$oid": "669494f02ec417efbac431e1"
+  },
+  "quantity": 65,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:27:50.596Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:28:07.720Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad17637bd5336e9343ade2"
+  },
+  "title": "Quản trị sự thay đổi trong các tổ chức",
+  "price": 55200,
+  "description": "Cuốn sách đáp ứng đúng nhu cầu thực tiễn của các doanh nghiệp nói riêng và cũng là nguồn tài liệu tham khảo hữu ích đối với bạn đọc có nhu cầu tìm hiểu và làm chủ những thay đổi trong tổ chức nói chung. Trên cơ sở đó, các nhà quản trị hay mọi thành viên trong tổ chức, doanh nghiệp thấu hiểu những đòi hỏi trong sự đổi mới và thường xuyên, liên tục đưa ra những chiến lược, kỹ thuật, công cụ hoạch định, thực hiện việc thay đổi và phát triển tổ chức nhằm tạo ra một tổ chức sống động thích ứng tốt với môi trường thay đổi và cạnh tranh toàn cầu ngày càng gay gắt. Nội dung của cuốn sách gồm 8 chương như sau: Chương 1: Tổng quan về thay đổi và quản trị sự thay đổi tổ chức; Chương 2: Những rào cản đối với thay đổi tổ chức; Chương 3: Văn hóa thay đổi của tổ chức; Chương 4: Hai mô hình tiêu biểu của thay đổi tổ chức; Chương 5: Hoạch định và kế hoạch thay đổi tổ chức; Chương 6: Tổ chức thực hiện và quản trị kế hoạch thay đổi; Chương 7: Truyền thông cho sự thay đổi tổ chức; Chương 8: Thay đổi và phát triển tổ chức.",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/f80/f8033b5b6514a9f812cafacc3dcd98f2/cc40631b71578b12571e091b7882fad0",
+  "author": "Phạm Vũ Khiêm, Hứa Thùy Trang",
+  "categoryId": {
+    "$oid": "669495822ec417efbac431ec"
+  },
+  "quantity": 40,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:29:07.477Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:29:07.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad178a7bd5336e9343aded"
+  },
+  "title": "  thử  0 Bạn chưa đăng nhập  Giáo trình kinh tế vận hành hệ thống",
+  "price": 75000,
+  "description": "Giáo trình được biên soạn nhằm mục đích cung cấp cho sinh viên chuyên ngành Kinh tế năng lượng, trường Đại học Bách Khoa Hà Nội những kiến thức cơ bản về phương pháp phân phối tối ưu giữa các tổ máy trong nhà máy nhiệt điện và phân phối tối ưu giữa các nhà máy trong hệ thống điện. Giáo trình còn giới thiệu một số vấn đề liên quan đến vấn đề kinh tế và tổ chức sản xuất trong nhà máy nhiệt điện cũng như hệ thống điện như lập kế hoạch sản xuất, kế hoạch sửa chữa, kế hoạch giá thành... dự trữ tối ưu cho hệ thống, độ tin cậy của hệ thống.",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/b75/b75d0263507c0d9f9b9802be408a410b/596af44b15de6cb960c888768f84e6ed",
+  "author": " Phan Diệu Hương",
+  "categoryId": {
+    "$oid": "669495822ec417efbac431ec"
+  },
+  "quantity": 53,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:29:46.938Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:29:46.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad17c47bd5336e9343adf8"
+  },
+  "title": "Bọn rợ rình trước cổng",
+  "price": 359100,
+  "description": "Cuốn sách Bọn rợ rình ở cổng là câu chuyện có thật về cuộc chiến giành quyền kiểm soát công ty bánh quy và thuốc lá Mỹ – RJR Nabisco – nhà sản xuất bánh quy Oreo và thuốc lá RJ Reynolds. Nội dung chính nói về việc mua lại có đòn bẩy (LBO) của tập đoàn RJR Nabisco với nhịp độ nhanh chóng và chi tiết, bao gồm cả những cuộc hội thoại riêng cũng như trong phòng họp giữa các CEO của các công ty. Cuốn sách thể hiện lòng tham đáng kinh ngạc của các chủ ngân hàng đầu tư, nhà quản lý công ty, nhà đầu tư cổ phần tư nhân, các cổ đông… Việc mua lại diễn ra được mở đầu bằng một cuộc chiến đấu thầu giữa ban lãnh đạo (do CEO Ross Johnson dẫn đầu), KKR, công ty cổ phần tư nhân lâu đời, và một số người chơi “nhỏ hơn”. Việc mua lại có đòn bẩy thường khiến công ty bị mua lại phải gánh rất nhiều nợ, đòi hỏi các nhà quản lý phải cắt giảm chi phí (thường bao gồm cả nhân sự) – đó là lý do tại sao những điều này không được nhân viên, công chúng và giới báo chí ưa chuộng. Khoản mua lại trị giá 25 tỷ đô la này, mà cuối cùng KKR đã giành được bởi cũng không khác gì, đặc biệt vì đây là LBO lớn nhất tại thời điểm đó.",
+  "img": "https://book365.vn/upload/uf/bf2/2j3czfmmyt6cmthrre7aqprwinpq83v1.jpeg",
+  "author": "Bryan Burrough, John Helyar",
+  "categoryId": {
+    "$oid": "669495472ec417efbac431e7"
+  },
+  "quantity": 31,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:30:44.894Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:30:44.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad183b7bd5336e9343ae03"
+  },
+  "title": "Ngày xửa ngày xưa - Cô bé lọ lem",
+  "price": 45000,
+  "description": "Cô bé Lọ Lem thuộc bộ sách Bộ sách Ngày Xửa Ngày Xưa, dành cho những em bé giàu trí tưởng tượng say mê những câu chuyện thần tiên, những em nhỏ đang háo hức tập đọc, những người lớn mơ mộng muốn trở về tuổi thơ và cho tất thảy những ai thích rèn luyện thói quen đọc sách từ nhỏ! Không chỉ là truyện, bởi minh hoạ đẹp mắt, sống động. Không chỉ là tranh bởi những câu chuyện thần tiên viết bằng ngôn ngữ đơn giản, dễ hiểu, không chỉ là tranh truyện bởi chúng ta sẽ còn được « thu hoạch » với những hoạt động thú vị rèn luyện thói quen đọc sách đúng. Ngày xửa ngày xưa… có một nàng công chúa da trắng như tuyết, tóc đen như mun, môi đỏ như máu… có một lâu đài nguy nga dưới đại dương, ở đó vua Thuỷ tề sống cùng sáu nàng công chúa… có một cô bé có đôi hài bảy dặm… có một thuỷ thủ vượt bảy đại dương… có một cô bé chỉ to bằng ngón tay cái… “Chiếc cối xay là của tao bởi tao là anh cả, còn con lừa sẽ là của thằng hai. Mày có thể lấy con mèo và ra khỏi nhà ngay bây giờ”… “Ai đó đã ăn cháo yến mạch của bố!... Ai đó đã ngồi lên ghế của mẹ!... Ai đó đã ngủ trên giường của con!...” “Sao cậu không đổi con bò lấy những hạt đậu này nhỉ? Gì chứ? Cả một con bò chỉ đổi lấy một nhúm đậu? Đùng đánh giá thấp chúng. Đó là những hạt đậu thần một đêm có thể mọc tới tận thiên đường.”… “Để xem, ta sẽ thổi phù phù, ta sẽ thổi phà phà rồi ta sẽ thổi bay ngôi nhà của ngươi!” “Ối, bà ơi, sao tai bà to thế! Tai bà to để nghe cháu rõ hơn. Ô, bà ơi, sao mắt bà to thế! Mắt bà to để nhìn mặt cháu rõ hơn. Bà ơi, sao mồm bà to thế! Mồm bà to… Để ăn thịt cháu ngon hơn!” “Đột nhiên, một vị thần khổng lồ hiện ra. “Chủ nhân, ngài cho gọi tôi?”… “Thỏ ơi, hãy giúp tôi về nhà.” … Đó là những câu chuyện nào nhỉ? Các bé có đoán ra không? Hãy cùng Ngày xửa, ngày xưa kể lại những truyện thần tiên mà ai đó đều ít nhất đã từng một lần được nghe bà, nghe mẹ kể bên nôi bằng ngôn ngữ của những bức tranh 3D sinh động và bắt mắt ấy nhé! Mời các em đón đọc trọn bộ 15 cuốn Ngày xửa, ngày xưa Nàng Tiên Cá Chú mèo Đi hia Jack và cây đậu thần Aladin và cây đèn thần Bạch Tuyết và bảy chú lùn Chuyện ba chú lợn con Những cuộc phiêu lưu của Sinbad Cô bé quàng khăn đỏ Chuyện ba chú gấu Cô bé tí hon Phù thuỷ phi thường Oz Cô bé Lọ Lem Bầy chim thiên nga Người đẹp và Quái vật Alice lạc vào xứ sở thần tiên Mã hàng 8935251416954 Tên Nhà Cung Cấp Alpha Books Tác giả Phỏng theo Charles Perrault Người Dịch Mẹ Chích Bông NXB NXB Dân Trí Năm XB 2021 Trọng lượng (gr) 150 Kích Thước Bao Bì 20.5 x 20.5 cm Số trang 52 Hình thức Bìa Mềm Sản phẩm bán chạy nhất Top 100 sản phẩm Truyện Tranh Thiếu Nhi bán chạy của tháng Giá sản phẩm trên Fahasa.com đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như Phụ phí đóng gói, phí vận chuyển, phụ phí hàng cồng kềnh,... Chính sách khuyến mãi trên Fahasa.com không áp dụng cho Hệ thống Nhà sách Fahasa trên toàn quốc Cô bé Lọ Lem thuộc bộ sách Bộ sách Ngày Xửa Ngày Xưa, dành cho những em bé giàu trí tưởng tượng say mê những câu chuyện thần tiên, những em nhỏ đang háo hức tập đọc, những người lớn mơ mộng muốn trở về tuổi thơ và cho tất thảy những ai thích rèn luyện thói quen đọc sách từ nhỏ!",
+  "img": "https://book365.vn/upload/uf/750/s8tsupchymc8b518ianvt0cyaj1z65cn.jpg",
+  "author": " Phỏng theo Charles Perrault",
+  "categoryId": {
+    "$oid": "6694958e2ec417efbac431ed"
+  },
+  "quantity": 11,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:32:43.669Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:32:43.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad18867bd5336e9343ae0e"
+  },
+  "title": "Mật mã và An toàn thông tin - Lý thuyết và Ứng dụng",
+  "price": 75500,
+  "description": "Sự phát triển nhanh chóng trong lĩnh vực Công nghệ thông tin và truyền thông nói chung và Thương mại điện tử nói riêng làm cho vấn đề đảm bảo an toàn, an ninh thông tin trở nên cấp thiết hơn bao giờ hết đối với các hệ thống lưu trữ và truyền thông. Trong đó, lý thuyết về mật mã hóa và các kỹ thuật giấu tin trong đa phương tiện đóng một vai trò rất quan trọng, Hiện nay, Nhà nước ta đang triển khai dịch vụ Công qua hệ thống Internet. Khi chuyển tải hoặc lưu trữ thông tin trên môi trường Internet, việc mất thông tin hoặc thông tin bị sửa đổi cho mục đích xấu là khó tránh khỏi. Ngoài ra, các hệ thống thanh toán liên ngân hàng, Thương mại điện tử (TMĐT), và quản lý các văn bản Công đang được phổ biến rộng rãi nên đã xuất hiện ngày càng tinh vi sự giả mạo, đánh cắp thông tin hoặc thay đổi nội dung thông tin là những hiện tượng đáng lo ngại. Do đó, giải pháp mật mã học và giấu tin trong đa phương tiện là những giải pháp không thể thiếu, không những thế chúng cần được nghiên cứu và phát triển. Để cung cấp những kiến thức về mật mã và an toàn thông tin, Nhà xuất bản Thông tin và Truyền thông xuất bản cuốn sách “Mật mã và An toàn thông tin: Lý thuyết và ứng dụng” do TS. Hồ Văn Canh và TS. Lê Danh Cường biên soạn. Nội dung của cuốn sách gồm 6 chương, cụ thể như sau: Chương 1: Vấn đề an toàn - an ninh thông tin Chương 2: Một số kiến thức bổ trợ Chương 3: Một số hệ mật mã cổ điển Chương 4: Một số hệ mật mã hiện đại Chương 5: Lược đồ chữ ký chống chối bỏ Chương 6: Giấu tin trong đa phương tiện và vấn đề phát hiện ảnh chứa thông tin ẩn. Hy vọng cuốn sách sẽ thực sự hữu ích đối với các sinh viên, các cán bộ nghiên cứu, các học viên cao học về lĩnh vực mật mã và an toàn thông tin. Cuốn sách cũng là tài liệu tham khảo bổ ích cho tất cả các bạn đọc yêu thích về an toàn thông tin nói riêng và công nghệ thông tin nói chung. ",
+  "img": "https://book365.vn/upload/uf/93f/copahu05n3o03v2vrx40vuh1yu34j919.jpeg",
+  "author": "TS. Hồ Văn Canh",
+  "categoryId": {
+    "$oid": "6694955c2ec417efbac431e9"
+  },
+  "quantity": 9,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:33:58.276Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:33:58.276Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad18e47bd5336e9343ae19"
+  },
+  "title": "Ứng dụng công nghệ truy dấu tiếp xúc để ứng phó với dịch COVID-19",
+  "price": 69000,
+  "description": "COVID-19 bùng phát và lây lan trên diện rộng khiến thế giới rơi vào cuộc khủng hoảng y tế công cộng chưa từng có tiền lệ. Để đương đầu với đại dịch, các nhà phát triển phần mềm cũng chạy đua cho các giải pháp công nghệ mới, đặc biệt là các ứng dụng truy dấu tiếp xúc số.\nTiến sĩ Jeffrey P. Kahn cùng một nhóm chuyên sâu các ứng dụng theo dõi liên lạc và những vấn đề phát sinh từ công nghệ này. Cuốn sách “Ứng dụng công nghệ truy dấu tiếp xúc để ứng phó với dịch COVID-19 cung cấp cho người đọc cái nhìn đa chiều từ đạo đức sinh học, y tế công cộng, sự phát triển của công nghệ đến chính sách công và luật pháp, cho thấy những khía cạnh khác nhau của công nghệ và ảnh hưởng của nó trong công cuộc chiến đấu chống lại đại dịch toàn cầu.",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/0e8/0e826b466158d54a13d9b6a6362cc7dc/cebec5f95f99231094d0688a01d1bc6f",
+  "author": "Jeffrey P. Kahn",
+  "categoryId": {
+    "$oid": "669495bc2ec417efbac431f0"
+  },
+  "quantity": 5,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:35:32.520Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:35:32.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad190d7bd5336e9343ae24"
+  },
+  "title": "  0 Bạn chưa đăng nhập  Chăm sóc sức khỏe người lao động",
+  "price": 119000,
+  "description": "Nhằm nâng cao hiểu biết cho người lao động, người sử dụng lao động những kiến thức về chăm sóc sức khỏe, khuyến khích lối sống, dinh dưỡng lành mạnh tại nơi làm việc, phòng chống bênh, tật và bệnh nghề nghiệp cho người lao động\nNội dung cuốn sách gồm 4 chương\nChương 1 - Vệ sinh lao động và sức khỏe người lao đông\nChương 2 - Chế dộ bảo hộ lao động và chăm sóc sức khỏe\nChương 3 - An toàn trong môi trường làm việc\nChương 4 - Phòng, chống bệnh nghề nghiệp, một số bệnh truyền nhiễm và tai nạn, thương tích cho người lao động",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/02e/02e5fcc29b4e3a8fbc7dd5079cb65a2e/0d0a986eb9140ff621b043e687ea1ef1",
+  "author": "BS. Vũ Kiều Anh",
+  "categoryId": {
+    "$oid": "669495bc2ec417efbac431f0"
+  },
+  "quantity": 20,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:36:13.661Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:36:13.661Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad19517bd5336e9343ae2f"
+  },
+  "title": "Cẩm nang du lịch Top 10 Paris",
+  "price": 96000,
+  "description": "Paris, kinh đô ánh sáng. Thành phố lãng mạn và thành phố cách mạng. Sự hòa trộn bốc đồng của các triết gia nơi quán cà phê và thời trang Coco Chanel. Một thiên đường ẩm thực. Một giấc mơ của những người yêu văn hóa. Tiêu điểm của hàng nghìn biểu tượng điện ảnh. Paris là tất cả những thứ đó và còn hơn thế nữa… ai có thể phủ định đây là điểm đến kì diệu nhất châu u?\nCùng Cẩm nang du lịch – Top 10 Paris, bạn hãy tự mình khám phá nơi này. Chúng ta yêu Paris: văn hóa của nó, sự quyến rũ của nó, cái je ne sais quoi (cái khó tả, khó gọi tên) của nó. Còn gì hơn được khám phá những cửa hiệu sang trọng ở Khu Marais hay hít hà những loại pho mát hảo hạng nhất trong cái chợ tươi ngon trên Đường Rue Montorgueil; lang thang ở Khu Montmartre mộng mơ hay dạo qua những hiệu sách ở Khu Latinh; xem ca vũ trong quán rượu khi đêm muộn hay thẩn thơ bước dọc Đại lộ Boulevard St-Germain để đến uống một li cà phê buổi sáng ở Quán Café de Flore theo dấu chân Hemingway và Picasso? Và còn gì vui hơn là nhảy lên một cái xe Vélib’ và đạp xe dọc Sông Seine từ Tháp Eiffel đến Nhà thờ Đức Bà? Paris là thành phố sinh ra để ta đi dạo, dọc những đại lộ rợp bóng cây và qua các công viên, trên nền những tòa nhà kiểu Haussmann thanh lịch và những công trình hiện đại vút cao. Những con đường đá cuội đó chứa đầy lịch sử, nhưng Paris cũng là một thành phố thế kỉ 21 hấp dẫn, nơi những vũ công hiện đại trình diễn trong Nhà hát opera Garnier lộng lẫy, và một thế hệ mới các đầu bếp nổi danh đang thử nghiệm và xây dựng trên danh tiếng ẩm thực huy hoàng của Paris. Dù bạn ở đây cuối tuần hay cả tuần, Top 10 Paris sẽ tập hợp tất cả những thứ tuyệt nhất của thành phố, từ các tác phẩm vang danh thế giới ở Bảo tàng Louvre đến những thú vui ẩn giấu nơi Kênh đào St-Martin xinh đẹp, cùng đủ các mẹo hay và các hành trình dễ làm theo cho bạn tham quan được một loạt địa điểm trong thời gian ngắn. Cộng thêm hình ảnh hấp dẫn và bản đồ chi tiết, và bạn đã có cuốn cẩm nang du lịch bỏ túi thiết yếu. Hãy tận hưởng cuốn sách, và tận hưởng Paris. Bộ sách nhỏ gọn và đầy ắp thông tin thiết thực này sẽ chia các thành phố thành các khu vực để người đọc dễ định hình và lên kế hoạch tham quan từng khu vực. Trong sách sẽ có:\n- Các danh sách top 10 cũng như các thắng cảnh không thể bỏ qua khác giúp bạn dễ dàng lên lịch trình hoàn hảo để tận dụng và tận hưởng mọi khoảnh khắc.\n- Bản đồ nhỏ ở từng phần giúp định vị những địa điểm hấp dẫn kèm theo phần giới thiệu từng địa điểm.",
+  "img": "https://book365.vn/upload/uf/576/qwxjlgcmm4rfimilo14jpu11c0dx8ejr.jpeg",
+  "author": "DK Dịch giả: Lê Hằng",
+  "categoryId": {
+    "$oid": "669495dd2ec417efbac431f2"
+  },
+  "quantity": 43,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:37:21.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:37:21.774Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad19797bd5336e9343ae3a"
+  },
+  "title": "Tuyến điểm Du lịch Việt Nam",
+  "price": 120000,
+  "description": "Trải dài từ Bắc tới Nam với dáng hình lưỡi gươm mở nước, Việt Nam bao gồm nhiều vùng sinh thái khác nhau. 54 tộc người cùng chung sống hòa hợp, đoàn kết và thân ái, điều đó khẳng định Việt Nam là quốc gia đa tộc người. Điều kiện tự nhiên, xã hội, lịch sử của các vùng có những nét tương đồng, có những nét dị biệt. Do vậy chi trình vận động của văn hóa nước ta được cảm nhận dưới hai chiều cảm quan và nhãn quan luôn chịu sự tác động của điều kiện kể trên. \"Tuyến điểm du lịch Việt Nam\" đem đến cho người đọc những cảm xúc tốt lành cũng như những tri thức theo họ suốt hành trình khám phá vẻ đẹp đất nước và con người Việt Nam",
+  "img": "https://book365-bd0597d52b2112b2088efaaa03918d68.s3.ap-southeast-1.amazonaws.com/disk/6c0/6c0c468e6210504ee38322db3bef57a1/4963c1e94546e42226205b6e6ede762c",
+  "author": "Bùi Thị Hải Yến",
+  "categoryId": {
+    "$oid": "669495dd2ec417efbac431f2"
+  },
+  "quantity": 6,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:38:01.253Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:38:01.253Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad19b17bd5336e9343ae45"
+  },
+  "title": "Paris lãng mạn không anh",
+  "price": 107100,
+  "description": "Một mối tình đẹp không nhất thiết phải có kết thúc đẹp, nó chỉ đẹp khi nghĩ đến nó ta luôn muốn mỉm cười hạnh phúc. Tình yêu không sống mãi khi bạn chỉ biết chiếm giữ, nó chỉ trường tồn khi bạn nghĩ tới, trân trọng và nâng niu nó mà thôi…Thế nên người Paris vẫn thường nói “ sau những cơn mưa Thu hiu hắt vẫn còn đó một Paris thơm mùi cà phê và ngọt ngào vị bánh Maccaron”.",
+  "img": "https://book365.vn/upload/uf/c2b/rz19zak79ta1n44q9f0jcft1afr0zvpw.jpeg",
+  "author": "Channel",
+  "categoryId": {
+    "$oid": "669495232ec417efbac431e4"
+  },
+  "quantity": 21,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:38:57.638Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:38:57.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ad19e17bd5336e9343ae50"
+  },
+  "title": "Con gái - Fille",
+  "price": 118800,
+  "description": "Camille Laurens được xem là một trong những kiện tướng” của văn chương đương đại Pháp. Theo đuổi thể loại “giả tự truyện” (autofiction), mà bà thường gọi là “écriture de soi”, Camille Laurens đã viết nhiều truyện ngắn, tiểu thuyết suốt hơn hai thập kỷ qua. Và với Con gái - Fille, tài năng văn chương đã giúp bà miêu tả sắc sảo những khoảnh khắc thời tuổi thơ ảnh hưởng tới sự trưởng thành sau này, phân tích một cách tinh tế và rõ ràng về trải nghiệm của phụ nữ trong một xã hội phân biệt giới tính.",
+  "img": "https://book365.vn/upload/uf/c06/v4e2sjp3m6wvfcdoxtjo54109tkf9dng.jpg",
+  "author": "Camille Laurens",
+  "categoryId": {
+    "$oid": "669495232ec417efbac431e4"
+  },
+  "quantity": 2,
+  "sold": 0,
+  "view": 0,
+  "createdAt": {
+    "$date": "2024-08-02T17:39:45.337Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T17:39:45.337Z"
+  },
+  "__v": 0
 }]

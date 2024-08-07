@@ -17,9 +17,9 @@ const Navbar = () => {
               <Link className="nav-link text-uppercase text-dark" to="/admin/categories">
                 thể loại
               </Link>
-              <a className="nav-link text-uppercase text-dark" href="index.html">
+              <Link className="nav-link text-uppercase text-dark" href="/admin/staff">
                 nhân viên
-              </a>
+              </Link>
               <a className="nav-link text-uppercase text-dark" href="index.html">
                 khách hàng
               </a>

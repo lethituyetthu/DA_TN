@@ -1,6 +1,4 @@
-// eslint-disable-next-line
 import React, { useState } from "react";
-
 import useFetchCate from "../../hooks/getCategory";
 import useFetchProducts from "../../hooks/getProduct";
 import "../../assets/css/styles.css";
@@ -23,6 +21,8 @@ const ProductAdd = () => {
     description: "",
   });
 
+  const [errors, setErrors] = useState({});
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prevData) => ({
@@ -31,33 +31,39 @@ const ProductAdd = () => {
     }));
   };
 
+  const validateForm = () => {
+    let newErrors = {};
+
+    if (!formData.title) newErrors.title = "Tiêu đề là bắt buộc";
+    if (!formData.author) newErrors.author = "Tác giả là bắt buộc";
+    if (!formData.img) newErrors.img = "Hình ảnh là bắt buộc";
+    if (!formData.price) {
+      newErrors.price = "Giá tiền là bắt buộc";
+    } else if (isNaN(formData.price)) {
+      newErrors.price = "Giá tiền phải là số";
+    }
+    if (!formData.quantity) {
+      newErrors.quantity = "Số lượng là bắt buộc";
+    } else if (isNaN(formData.quantity)) {
+      newErrors.quantity = "Số lượng phải là số";
+    }
+    if (!formData.categoryId) newErrors.categoryId = "Thể loại là bắt buộc";
+    if (!formData.description)
+      newErrors.description = "Thông tin chi tiết là bắt buộc";
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    /* console.log(formData) */
 
-    console.log(formData);
-    addProduct(formData);
-
-    /* try {
-      const response = await fetch("http://localhost:3200/products", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json", // Chỉ định kiểu dữ liệu là JSON
-        },
-        body: JSON.stringify(formData), // Chuyển đổi dữ liệu thành JSON
-      });
-
-      if (!response.ok) {
-        const errorData = await response.text(); // Hoặc response.json() nếu máy chủ trả về JSON
-        throw new Error(`Lỗi khi thêm sản phẩm: ${errorData}`);
-      }
-
-      const result = await response.json();
-      console.log("Thêm sản phẩm thành công:", result);
-    } catch (error) {
-      console.error("Lỗi khi thêm sản phẩm:", error.message);
-    } */
+    if (validateForm()) {
+      addProduct(formData);
+      navigate("/admin/products");
+    }
   };
+
   return (
     <>
       <form
@@ -69,15 +75,14 @@ const ProductAdd = () => {
           className=" text-dark  pb-2 mb-4 mt-2 fs-4 fw-bold"
           style={{
             backgroundColor: "#fff",
-            borderBottom: "2px solid #000", // Đường dưới chữ
-            textAlign: "left", // Căn lề trái
+            borderBottom: "2px solid #000",
+            textAlign: "left",
           }}
         >
           Add Product
         </div>
         <div className="d-flex ">
           <div className="mb-3 col-6">
-            {/* === TIÊU ĐỀ === */}
             <label
               htmlFor="title"
               className="form-label col-sm-3 fs-5 fw-normal"
@@ -94,7 +99,8 @@ const ProductAdd = () => {
               onChange={handleChange}
               style={{ backgroundColor: "#f0f0f0" }}
             />
-            {/* === TÁC GIẢ === */}
+            {errors.title && <div className="text-danger">{errors.title}</div>}
+
             <label
               htmlFor="author"
               className="form-label col-sm-3 fs-5 fw-normal"
@@ -111,7 +117,10 @@ const ProductAdd = () => {
               onChange={handleChange}
               style={{ backgroundColor: "#f0f0f0" }}
             />
-            {/* === GIÁ TIỀN === */}
+            {errors.author && (
+              <div className="text-danger">{errors.author}</div>
+            )}
+
             <label htmlFor="price" className="form-label fs-5 col-sm-3">
               Giá Tiền
             </label>
@@ -125,7 +134,8 @@ const ProductAdd = () => {
               onChange={handleChange}
               style={{ backgroundColor: "#f0f0f0" }}
             />
-            {/* === SỐ LƯỢNG === */}
+            {errors.price && <div className="text-danger">{errors.price}</div>}
+
             <label htmlFor="quantity" className=" form-label fs-5 col-sm-3">
               Số Lượng
             </label>
@@ -139,9 +149,11 @@ const ProductAdd = () => {
               onChange={handleChange}
               style={{ backgroundColor: "#f0f0f0" }}
             />
+            {errors.quantity && (
+              <div className="text-danger">{errors.quantity}</div>
+            )}
           </div>
           <div className="ms-5 ps-3 mb-3 d-flex col-6 ">
-            {/* === HIỂN THỊ HÌNH ẢNH === */}
             {formData.img && (
               <img
                 src={formData.img}
@@ -153,7 +165,6 @@ const ProductAdd = () => {
         </div>
 
         <div className="mb-3 ">
-          {/* === IMG === */}
           <label htmlFor="img" className="form-label fs-4 col-sm-2 fs-5 ">
             Img
           </label>
@@ -168,8 +179,9 @@ const ProductAdd = () => {
             placeholder="Enter hình ảnh"
             style={{ backgroundColor: "#f0f0f0" }}
           />
+          {errors.img && <div className="text-danger">{errors.img}</div>}
         </div>
-        {/* === thông tin chi tiết  === */}
+
         <div className="mb-3 ">
           <label htmlFor="description" className="form-label fs-5">
             Thông Tin Chi Tiết
@@ -183,9 +195,11 @@ const ProductAdd = () => {
             placeholder="Enter Thông Tin Chi Tiết"
             style={{ height: "150px", backgroundColor: "#f0f0f0" }}
           ></textarea>
+          {errors.description && (
+            <div className="text-danger">{errors.description}</div>
+          )}
         </div>
 
-        {/* === THỂ LOẠI === */}
         <div className="mb-3 ">
           <label htmlFor="category" className="form-label fs-4 col-sm-2">
             Thể Loại
@@ -198,19 +212,27 @@ const ProductAdd = () => {
             onChange={handleChange}
             style={{ backgroundColor: "#f0f0f0" }}
           >
+            <option value="">Chọn thể loại</option>
             {cate.map((e) => (
               <option key={e.id} value={e.id}>
                 {e.name}
               </option>
             ))}
           </select>
+          {errors.categoryId && (
+            <div className="text-danger">{errors.categoryId}</div>
+          )}
         </div>
-        {/* === BUTTON === */}
+
         <div className="d-flex">
           <button type="submit" className="btn btn-primary p-2 w-25 m-3 ms-0 ">
             Nhập Hàng
           </button>
-          <button type="button" className="btn btn-danger p-2 w-25  m-3 " onClick={() => navigate("/admin/products")}>
+          <button
+            type="button"
+            className="btn btn-danger p-2 w-25  m-3 "
+            onClick={() => navigate("/admin/products")}
+          >
             Hủy
           </button>
         </div>

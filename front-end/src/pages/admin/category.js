@@ -6,7 +6,8 @@ import useFetchCate from "../../hooks/getCategory";
 import CategoryList from "../../components/admin/categoryList";
 
 const Categories = () => {
-  const { cate,deleteCate,addCate } = useFetchCate();
+  const { cate,deleteCate,addCate,updateCate } = useFetchCate();
+
   /* ===== thêm danh mục ===== */
   const [newCate, setCate] = useState("")
   const handleChange = (e) =>{
@@ -22,6 +23,11 @@ const Categories = () => {
     await addCate({name : newCate})
     setCate("")
   }
+  /* ========== */
+  
+  /* ===== cập nhật danh mục ===== */
+
+  /* ========== */
   
   /* ===== tìm kiếm danh mục theo tên ===== */
   const [search, setSearch] = useState("");
@@ -36,8 +42,8 @@ const Categories = () => {
     <>
       <main>
         <div className="container-fluid px-4 mt-4">
-          <p htmlFor="newCategory" className="form-label fs-5 text-danger fw-bold">
-          Thể Loại Mới
+          <p htmlFor="newCategory" className="form-label fs-5 text-dark fw-bold">
+          Add Category
           </p>
           <form onSubmit={handleSubmit} className="mb-4 d-flex">
             <div className="mb-3 col-sm-5">
@@ -67,24 +73,8 @@ const Categories = () => {
               <input type="text" className="form-control w-25 ms-5" placeholder="Bạn muốn tìm thể loại sách nào ??" value={search} onChange={timkiem}/>
             </div>
             <div className="card-body">
-              <table className="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Mã </th>
-                    <th>Tên</th>
-                    <th>Thao Tác</th>
-                  </tr>
-                </thead>
-                <tfoot>
-                  <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                  </tr>
-                </tfoot>
-
-                <CategoryList categories={search ? fillterCate : fillterCate} deleteCate={deleteCate} />
-              </table>
+                <CategoryList categories={search ? fillterCate : fillterCate} deleteCate={deleteCate} updateCate={updateCate} />
+              
             </div>
           </div>
         </div>
